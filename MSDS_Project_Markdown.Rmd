@@ -1,0 +1,37 @@
+---
+title: "MSDS_Project_Jeng"
+author: "Darren Jeng"
+date: "November 28, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(rvest)
+library(stringr)
+```
+
+## Video Game Sales vs Reviews
+
+
+```{r copies}
+# When extracting the list, there are over 205 elements; only two of the elements contain the full list needed, the rest were just titles of the games. 
+url <- "http://www.vgchartz.com/yearly/2016/USA/"
+USA_YEARLY_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
+USA_Copies_Yearly_2016 <- USA_YEARLY_GET[[2]]
+names(USA_Copies_Yearly_2016) <- make.names(names(USA_Copies_Yearly_2016))
+names(USA_Copies_Yearly_2016)[1] <- "Position"
+names(USA_Copies_Yearly_2016)[2] <- "Remove"
+names(USA_Copies_Yearly_2016)[4] <- "Remove"
+names(USA_Copies_Yearly_2016)[5] <- "Remove"
+names(USA_Copies_Yearly_2016)[6] <- "Remove"
+names(USA_Copies_Yearly_2016)[7] <- "Weeks"
+names(USA_Copies_Yearly_2016)[8] <- "Yearly"
+names(USA_Copies_Yearly_2016)[9] <- "Total"
+
+USA_Copies_Yearly_2016_Cleaned <- USA_Copies_Yearly_2016[,c("Position", "Game", "Weeks", "Yearly", "Total")]
+
+
+
+```
