@@ -34,4 +34,25 @@ USA_Copies_Yearly_2016_Cleaned <- USA_Copies_Yearly_2016[,c("Position", "Game", 
 
 
 
+
+
+url <- "http://www.gamerankings.com/browse.html?site=&cat=0&year=2016&numrev=1&sort=0&letter=&search="
+SCORE_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
+
+
+# Rbind for appending
+
+
+for (i in 1:9){
+  url <- paste("http://www.gamerankings.com/browse.html?page=", i, "&year=2016&numrev=1", sep = "")
+  SUBMETA_GET <- url %>% read_html %>% html_nodes("table") %>% html_table(fill = TRUE)
+  
+}
+i = "1"
+url <- "http://www.gamerankings.com/browse.html?page=1&year=2016&numrev=1"
+
+
+paste("http://www.gamerankings.com/browse.html?page=", i, "&year=2016&numrev=1", sep = "")
+
+
 ```
