@@ -12,29 +12,12 @@ library(rvest)
 library(stringr)
 ```
 
-## Video Game Sales vs Reviews
+## Video Game Software Sales 2016
+
+This project 
 
 
-```{r copies}
-# When extracting the list, there are over 205 elements; only two of the elements contain the full list needed, the rest were just titles of the games. 
-url <- "http://www.vgchartz.com/yearly/2016/USA/"
-USA_YEARLY_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
-USA_Copies_Yearly_2016 <- USA_YEARLY_GET[[2]]
-names(USA_Copies_Yearly_2016) <- make.names(names(USA_Copies_Yearly_2016))
-names(USA_Copies_Yearly_2016)[1] <- "Position"
-names(USA_Copies_Yearly_2016)[2] <- "Remove"
-names(USA_Copies_Yearly_2016)[4] <- "Remove"
-names(USA_Copies_Yearly_2016)[5] <- "Remove"
-names(USA_Copies_Yearly_2016)[6] <- "Remove"
-names(USA_Copies_Yearly_2016)[7] <- "Weeks"
-names(USA_Copies_Yearly_2016)[8] <- "Yearly"
-names(USA_Copies_Yearly_2016)[9] <- "Total"
-
-USA_Copies_Yearly_2016_Cleaned <- USA_Copies_Yearly_2016[,c("Position", "Game", "Weeks", "Yearly", "Total")]
-
-
-
-
+```{r score}
 # Trying to get aggrgate score for 2016
 url <- "http://www.gamerankings.com/browse.html?site=&cat=0&year=2016&numrev=1&sort=0&letter=&search="
 SCORE_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
@@ -57,7 +40,7 @@ SCORE_GET$Game.Untidy <- str_replace_all(SCORE_GET$Game.Untidy,"\r\n\t\t","$")
 SCORE_GET <- separate(SCORE_GET, Game.Untidy, into = c("Game", "Info"), sep = "\\$")
 SCORE_GET$Info <- str_replace(SCORE_GET$Info,"\\, 2016","")
 SCORE_GET$Info <- str_replace(SCORE_GET$Info,"Eighting\\/Raizing", "Eighting")
-# Some developers self publish their game which is why a publisher is not listed for those games. Let's fix that.
+# Some developers self publish their game which is why a publisher is not listed for those games. Let's fix that. For any row that has N/A in Publisher, copy publisher to developer.
 SCORE_GET <- separate(SCORE_GET, Info, into = c("Developer", "Publisher"), sep = "/")
 for (i in 1:nrow(SCORE_GET)) {
   if (is.na(SCORE_GET$Publisher[i] == TRUE)) {SCORE_GET$Publisher[i] <- SCORE_GET$Developer[i]}
@@ -67,61 +50,41 @@ SCORE_GET$Score <- str_extract(SCORE_GET$Score.Untidy,"[0-9]+.[0-9]+")
 SCORE_GET$Number.of.Reviews <- str_sub(SCORE_GET$Score.Untidy, 7, 8)
 SCORE_GET$Score.Untidy <- NULL
 
-
-# Now we need to get aggregate scores for 2015 
-url <- "http://www.gamerankings.com/browse.html?site=&cat=0&year=2015&numrev=1&sort=0&letter=&search="
-SCORE_GET2 <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
-SCORE_GET2 <- as.data.frame(SCORE_GET2)
-# Rbind for appending
-for (i in 1:10){
-  url <- paste("http://www.gamerankings.com/browse.html?page=", i, "&year=2015&numrev=1", sep = "")
-  SUBSCORE_GET2 <- url %>% read_html %>% html_nodes("table") %>% html_table(fill = TRUE)
-  SUBSCORE_GET2 <- as.data.frame(SUBSCORE_GET2)
-  SCORE_GET2 <- rbind(SCORE_GET2,SUBSCORE_GET2)
-}
-# Start to tidy data set
-SCORE_GET2$X1 <- NULL
-colnames(SCORE_GET2)[colnames(SCORE_GET2) == "X2"] <- "Platform"
-colnames(SCORE_GET2)[colnames(SCORE_GET2) == "X3"] <- "Game.Untidy"
-colnames(SCORE_GET2)[colnames(SCORE_GET2) == "X4"] <- "Score.Untidy"
-# Remove escape sequences and have a separator symbol to be used
-SCORE_GET2$Game.Untidy <- str_replace_all(SCORE_GET2$Game.Untidy,"\r\n\t\t","$")
-# Tidy Game.Untidy to Game, Developer, and Publisher
-SCORE_GET2 <- separate(SCORE_GET2, Game.Untidy, into = c("Game", "Info"), sep = "\\$")
-SCORE_GET2$Info <- str_replace(SCORE_GET2$Info,"\\, 2015","")
-SCORE_GET2 <- separate(SCORE_GET2, Info, into = c("Developer", "Publisher"), sep = "/")
-# Some developers self publish their game which is why a publisher is not listed for those games. Let's fix that. For any row that has N/A in Publisher, copy publisher to developer.
-for (i in 1:nrow(SCORE_GET2)) {
-  if (is.na(SCORE_GET2$Publisher[i] == TRUE)) {SCORE_GET2$Publisher[i] <- SCORE_GET2$Developer[i]}
-}
-# Tidy Score.Untiy to Score and Number.Of.Reviews
-SCORE_GET2$Score <- str_extract(SCORE_GET2$Score.Untidy,"[0-9]+.[0-9]+")
-SCORE_GET2$Number.of.Reviews <- str_sub(SCORE_GET2$Score.Untidy, 7, 8)
-SCORE_GET2$Score.Untidy <- NULL
+# After consideration, I decided to limit the entire search function to games released this year. This is because of the limited number of sales data provided by vgchartz to a free user, espcially for games released awhile ago. However, newly released games won't be as impacted by this issue, so a decent comparision can be had. 
+```
 
 
-# Merge the 2015 and 2016 reviews into one list, ordered by score
-SCORE_GET <- rbind(SCORE_GET, SCORE_GET2)
-SCORE_GET$Score <- as.numeric(SCORE_GET$Score)
-SCORE_GET <- SCORE_GET[order(-SCORE_GET$Score),]
-rownames(SCORE_GET) <- NULL
-  
-  
+```{r sales}  
 # Getting sales data for software and hardware
 url <- "http://www.vgchartz.com/weekly/42372/USA/"
 SALES_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
 # There is already a graph for total sales of software and hardware. We can pull that first then worry about individual software next.
+# After consideration, console and total software sales data per console will not be used. The focus will be on individual games and thus this data isn't required for proper analysis. However, it is still included just incase the situation changes.
 SALES_CONSOLE_GET <- SALES_GET[[154]]
 SALES_TOTAL_SOFTWARE_GET <- SALES_GET[[155]]
 SALES_WEEKLY_SOFTWARE_GET <- SALES_GET[[2]]
+# The data doesn't have the actual date. Using the url, which has code that can be used to interpret the date, I can thus get the date and append this if needed. The number needs to be subtracted by three to reach the same date as on the website. Not entirely sure why this is the case since the data is not being posted three days later but weeks later. 
+SALES_WEEKLY_SOFTWARE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
+SALES_CONSOLE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
+SALES_TOTAL_SOFTWARE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
 
-# With these three data sets initialized, we need a for loop that can extract these three sets for each week until the most current data avaliable. Since the "date" portion of the url just increases by seven, we can just have the loop keep going by intervals of seven until it reaches the most current data. 
 
-# Why not just grab all the information into 
-
-for (i in seq(from = 42379, to = 42687, by = 7)) {
+# With these three data sets initialized, we need a for loop that can extract these three sets for each week until the most current data avaliable. Since the "date" portion of the url just increases by seven, we can just have the loop keep going by intervals of seven until it reaches the most current data. The way this is coded, I could get data for all possible weeks, but instead I am focusing on just this year (2016).
+for (i in seq(from = 42379, to = 42694, by = 7)) {
   url <- paste("http://www.vgchartz.com/weekly/", i, "/USA/", sep = "")
+  SALES_GET <- url %>% read_html() %>% html_nodes("table") %>% html_table(fill = TRUE)
+  SALES_CONSOLE_GET_PART <- SALES_GET[[154]]
+  SALES_CONSOLE_GET_PART$Week.Ending <- as.Date(i - 3, origin = "1900-01-01")
+  SALES_TOTAL_SOFTWARE_GET_PART <- SALES_GET[[155]]
+  SALES_TOTAL_SOFTWARE_GET_PART$Week.Ending <- as.Date(i - 3, origin = "1900-01-01")
+  SALES_WEEKLY_SOFTWARE_GET_PART <- SALES_GET[[2]]
+  SALES_WEEKLY_SOFTWARE_GET_PART$Week.Ending <- as.Date(i - 3, origin = "1900-01-01")
+  
+  SALES_CONSOLE_GET <- rbind(SALES_CONSOLE_GET,SALES_CONSOLE_GET_PART)
+  SALES_TOTAL_SOFTWARE_GET <- rbind(SALES_TOTAL_SOFTWARE_GET,SALES_TOTAL_SOFTWARE_GET_PART)
+  SALES_WEEKLY_SOFTWARE_GET <- rbind(SALES_WEEKLY_SOFTWARE_GET,SALES_WEEKLY_SOFTWARE_GET_PART)
 }
+
 
 # Tidy software sales
 names(SALES_WEEKLY_SOFTWARE_GET) <- make.names(names(SALES_WEEKLY_SOFTWARE_GET))
@@ -133,6 +96,7 @@ names(SALES_WEEKLY_SOFTWARE_GET)[7] <- "Week.Number"
 
 # Two games are from 2015 and are labeled as such with parenthesis. Change that to brackets for easier separating later on.
 SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"\\(2015\\)","\\[2015\\]")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"\\(2016\\)","")
 
 # More tidy 
 SALES_WEEKLY_SOFTWARE_GET <- separate(SALES_WEEKLY_SOFTWARE_GET, Game, into = c("Game", "Platform.Untidy"), sep = "\\(")
@@ -140,10 +104,10 @@ SALES_WEEKLY_SOFTWARE_GET <- separate(SALES_WEEKLY_SOFTWARE_GET, Platform.Untidy
 SALES_WEEKLY_SOFTWARE_GET$Genre <- str_extract(SALES_WEEKLY_SOFTWARE_GET$Genre.Untidy, "\\, [A-z]+\\-?[A-z]*")
 SALES_WEEKLY_SOFTWARE_GET$Genre <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Genre,"\\, ","")
 
-# From the beginning, the way the table was scraped there is always a duplicate line for each observation. Need to filter those out. 
+# From the beginning, the way the table was scraped there was a duplicate line for each observation. Need to filter those out. 
 SALES_WEEKLY_SOFTWARE_GET[is.na(SALES_WEEKLY_SOFTWARE_GET)] <- 0
 SALES_WEEKLY_SOFTWARE_GET <- filter(SALES_WEEKLY_SOFTWARE_GET, Pos != 0)
-SALES_WEEKLY_SOFTWARE_GET <- SALES_WEEKLY_SOFTWARE_GET[,c("Pos", "Game", "Platform", "Genre", "Weekly", "Total", "Week.Number")]
+SALES_WEEKLY_SOFTWARE_GET <- SALES_WEEKLY_SOFTWARE_GET[,c("Pos", "Game", "Platform", "Genre", "Weekly", "Total", "Week.Number","Week.Ending")]
 
 # Convert numbers from character to integer for later use. Pro and N/A signified that membership was required to get those numbers. Put those to zero first to be later noted.
 SALES_WEEKLY_SOFTWARE_GET$Weekly <- str_replace_all(SALES_WEEKLY_SOFTWARE_GET$Weekly,"\\,","")
@@ -152,16 +116,47 @@ SALES_WEEKLY_SOFTWARE_GET$Weekly <- as.integer(SALES_WEEKLY_SOFTWARE_GET$Weekly)
 SALES_WEEKLY_SOFTWARE_GET$Total <- str_replace_all(SALES_WEEKLY_SOFTWARE_GET$Total,"\\,","")
 SALES_WEEKLY_SOFTWARE_GET$Total <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Total,"N\\/A","0")
 SALES_WEEKLY_SOFTWARE_GET$Total <- as.integer(SALES_WEEKLY_SOFTWARE_GET$Total)
+```
 
-# The data doesn't have the actual date. Using the url, which has code that can be used to interpret the date, I can thus get the date and append this if needed. The number needs to be subtracted by three to reach the same date as on the website. Not entirely sure why this is the case since the data is not being posted three days later but weeks later. 
-SALES_WEEKLY_SOFTWARE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
-SALES_CONSOLE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
-SALES_TOTAL_SOFTWARE_GET$Week.Ending <- as.Date(42372 - 3, origin = "1900-01-01")
+```{r merge and sort}
+# For some reason, the names in the SALES_WEEKLY_SOFTWARE_GET data can not be filtered. I don't understand why this is; the class is "character" and str functions work fine with the names but filtering refuses to work. I even tried changing character encodings and that did nothing. Since I can still detect strings in the variable, I can cross reference a name on the review list with the name on the sales list then assign a unique ID for each matching. Then I can join both data sets based on this unique ID as the key.
+
+# I'm dumb; there's a space at the end of each name title. Didn't notice it for the longest time. Removing that, merge works now. 
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game," $","")
+SALES_WEEKLY_SOFTWARE_GET$Platform <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Platform,"XOne","XONE")
+SALES_WEEKLY_SOFTWARE_GET$Platform <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Platform,"WiiU","WIIU")
+SALES_WEEKLY_SOFTWARE_GET$Platform <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Platform,"PSV","VITA")
+# Two game has two versions, but sales data doesn't have sales number for each sku. For simplicity, just combine both version into one since their review scores are similar.
+SCORE_GET$Game <- str_replace(SCORE_GET$Game,"Pokemon Sun","Pokemon Sun/Moon")
+SCORE_GET$Game <- str_replace(SCORE_GET$Game,"Fire Emblem Fates: Special Edition","Fire Emblem Fates")
+
+# Miscelaneious Edits for mismatched titles
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Odin Sphere: Leifdrasir","Odin Sphere Leifthrasir")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"MLB 16: The Show","MLB The Show 16")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Resident Evil 4 HD","Resident Evil 4")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Doom","DOOM")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Rise of the Tomb Raider","Rise of the Tomb Raider 20 Year Celebration")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Revelator","REVELATOR")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"The Elder Scrolls V Skyrim","The Elder Scrolls V Skyrim Special Edition")
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,"Plants vs. Zombies","Plants vs Zombies")
+
+
+# Lots of issues with usage of colon in names, and instead of going through each name just remove all of it from both lists. 
+SALES_WEEKLY_SOFTWARE_GET$Game <- str_replace(SALES_WEEKLY_SOFTWARE_GET$Game,":","")
+SCORE_GET$Game <- str_replace(SCORE_GET$Game,":","")
+
+
+# Merge the sales data to review scores
+SCORE_SALES_ALL <- left_join(SCORE_GET,SALES_WEEKLY_SOFTWARE_GET, by = c("Game","Platform"))
+
+SALES_WEEKLY_SOFTWARE_WEEKONE <- SALES_WEEKLY_SOFTWARE_GET %>% filter(Week.Number == 1)
+SCORE_SALES_WEEKONE <- left_join(SCORE_GET,SALES_WEEKLY_SOFTWARE_WEEKONE, by = c("Game", "Platform"))
+```
 
 
 
-
-
-
-
+```{r shiny}
+# Shiny app needs datasets I assume, so write the csvs in a separate file to be called later. Commented out so it won't write it but you can see the step.
+# write.csv(SCORE_SALES_ALL, file = "~/Documents/MSDS597/MSDS Project/data/Score_Sales_All")
+# write.csv(SCORE_SALES_WEEKONE, file = "~/Documents/MSDS597/MSDS Project/data/Score_Sales_Week_One")
 ```
