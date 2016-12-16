@@ -6,10 +6,10 @@ library(ggplot2)
 library(DT)
 
 # Initialize
-Score_Sales_All <- read.csv("~/Documents/MSDS597/MSDS Project/data/Score_Sales_All", stringsAsFactors=FALSE)
+Score_Sales_All <- read.csv("https://raw.githubusercontent.com/KaiJeng/MSDS_Project_Jeng/master/data/Score_Sales_All", stringsAsFactors=FALSE)
 Score_Sales_All$X <- NULL
 Score_Sales_All$Week.Ending <- as.Date(Score_Sales_All$Week.Ending)
-Score_Sales_Week_One <- read.csv("~/Documents/MSDS597/MSDS Project/data/Score_Sales_Week_One", stringsAsFactors=FALSE)
+Score_Sales_Week_One <- read.csv("https://raw.githubusercontent.com/KaiJeng/MSDS_Project_Jeng/master/data/Score_Sales_Week_One", stringsAsFactors=FALSE)
 Score_Sales_Week_One$X <- NULL
 Score_Sales_Week_One$Week.Ending <- as.Date(Score_Sales_Week_One$Week.Ending)
 
@@ -32,7 +32,7 @@ ui <- fluidPage(
       "Note: Sales numbers unavailable for some titles"
     ),
     
-    
+    # Any of those "dum" tables are used to break two lines into separate lines. What I mean is if you take those tables out, the line above will be appended to the next line.
     mainPanel(
       tabsetPanel(type = "tabs",
                   tabPanel("Description", tableOutput("tableDesc"),
