@@ -1,475 +1,478 @@
-"","Platform","Game","Developer","Publisher","Score","Number.of.Reviews","Pos","Genre","Weekly","Total","Week.Number","Week.Ending"
-"1","XONE","INSIDE","PLAYDEAD","PLAYDEAD","92.81","55",NA,NA,NA,NA,NA,NA
-"2","PS4","Uncharted 4 A Thief's End","Naughty Dog","SCEA","92.71","73",1,"Shooter",715173,715173,1,2016-05-14
-"3","XONE","Forza Horizon 3","Playground Games","Microsoft Game Studios","92.14","56",4,"Racing",138981,138981,1,2016-10-01
-"4","PC","The Witcher 3 Wild Hunt - Blood and Wine","CD Projekt Red Studio","CD Projekt","91.58","20",NA,NA,NA,NA,NA,NA
-"5","PC","Owlboy","D-Pad Studio","D-Pad Studio","91.38","21",NA,NA,NA,NA,NA,NA
-"6","PC","Overwatch","Blizzard Entertainment","Blizzard Entertainment","91.26","38",3,"Shooter",103319,103319,1,2016-05-28
-"7","PS4","Overwatch","Blizzard Entertainment","Blizzard Entertainment","90.68","22",1,"Shooter",219401,219401,1,2016-05-28
-"8","PS4","INSIDE","PLAYDEAD","PLAYDEAD","90.67","12",NA,NA,NA,NA,NA,NA
-"9","XONE","Overwatch","Blizzard Entertainment","Blizzard Entertainment","90.58","12",2,"Shooter",154208,154208,1,2016-05-28
-"10","XONE","Dark Souls III","From Software","Bandai Namco Games","90.40","10",3,"Role-Playing",105406,105406,1,2016-04-16
-"11","PS4","The Witcher 3 Wild Hunt - Blood and Wine","CD Projekt Red Studio","CD Projekt","90.00","20",NA,NA,NA,NA,NA,NA
-"12","PC","Titanfall 2","Respawn Entertainment","Electronic Arts","89.83","12",41,"Shooter",0,0,1,2016-10-29
-"13","PC","Stardew Valley","ConcernedApe","Chucklefish","89.39","19",NA,NA,NA,NA,NA,NA
-"14","PS4","Rez Infinite","Enhance Games","Enhance Games","89.14","21",NA,NA,NA,NA,NA,NA
-"15","3DS","Fire Emblem Fates","Intelligent Systems","Nintendo","89.07","22",1,"Role-Playing",219736,219736,1,2016-02-20
-"16","PS4","Titanfall 2","Respawn Entertainment","Electronic Arts","89.05","41",7,"Shooter",68811,68811,1,2016-10-29
-"17","XONE","DOOM","id Software","Bethesda Softworks","89.04","24",3,"Shooter",117242,117242,1,2016-05-14
-"18","PS4","Dark Souls III","From Software","Bandai Namco Games","88.93","49",1,"Role-Playing",303526,303526,1,2016-04-16
-"19","PS4","Rise of the Tomb Raider 20 Year Celebration","Crystal Dynamics","Square Enix","88.69","26",3,"Adventure",83104,83104,1,2016-10-15
-"20","XONE","Dishonored 2","Arkane Studios","Bethesda Softworks","88.57","14",6,"Action",65389,65389,1,2016-11-12
-"21","PC","Dark Souls III","From Software","Bandai Namco Games","88.51","34",NA,NA,NA,NA,NA,NA
-"22","3DS","Pokemon Sun/Moon","Game Freak","Nintendo","88.27","44",1,"Role-Playing",1981206,1981206,1,2016-11-19
-"23","PC","Sid Meier's Civilization VI","Firaxis Games","2K Games","88.22","41",10,"Strategy",31013,31013,1,2016-10-22
-"24","XONE","Rocket League","Psyonix","Psyonix","88.11","14",11,"Sports",16092,16092,1,2016-07-09
-"25","3DS","Pokemon Moon","Game Freak","Nintendo","88.02","45",NA,NA,NA,NA,NA,NA
-"26","XONE","Ori and the Blind Forest Definitive Edition","Moon Studios","Microsoft Game Studios","87.85","13",NA,NA,NA,NA,NA,NA
-"27","PS4","Battlefield 1","EA DICE","EA Games","87.70","20",2,"Shooter",498228,498228,1,2016-10-22
-"28","PC","Battlefield 1","EA DICE","EA Games","87.64","22",21,"Shooter",19706,19706,1,2016-10-22
-"29","XONE","NBA 2K17","Visual Concepts","2K Games","87.50","10",2,"Sports",267687,267687,1,2016-09-17
-"30","PC","World of Warcraft Legion","Blizzard Entertainment","Blizzard Entertainment","87.19","27",3,"Role-Playing",82322,82322,1,2016-09-03
-"31","PS4","Dishonored 2","Arkane Studios","Bethesda Softworks","86.87","34",3,"Action",112243,112243,1,2016-11-12
-"32","XONE","DiRT Rally","Codemasters","Codemasters","86.79","14",25,"Racing",10535,10535,1,2016-04-09
-"33","PS4","Odin Sphere Leifthrasir","Vanillaware","Atlus","86.78","36",4,"Role-Playing",41048,41048,1,2016-06-11
-"34","3DS","Fire Emblem Fates Revelation","Intelligent Systems","Nintendo","86.73","11",NA,NA,NA,NA,NA,NA
-"35","PS4","Valkyria Chronicles Remastered","Sega","Sega","86.61","38",5,"Role-Playing",30367,30367,1,2016-05-21
-"36","PC","XCOM 2","Firaxis Games","2K Games","86.39","67",3,"Strategy",28795,28795,1,2016-02-06
-"37","XONE","Battlefield 1","EA DICE","EA Games","86.30","27",1,"Shooter",509105,509105,1,2016-10-22
-"38","PC","Day of the Tentacle Remastered","Double Fine Productions","Double Fine Productions","86.27","15",NA,NA,NA,NA,NA,NA
-"39","PS4","Ratchet & Clank","Insomniac Games","SCEA","86.27","64",2,"Platform",148593,148593,1,2016-04-16
-"40","PS4","XCOM 2","Firaxis Games","2K Games","86.20","15",18,"Strategy",13017,13017,1,2016-10-01
-"41","PS4","MLB The Show 16","SCEA San Diego Studios","SCEA","86.19","32",1,"Action",206574,206574,1,2016-04-02
-"42","3DS","Monster Hunter Generations","Capcom","Capcom","86.14","46",1,"Action",102288,102288,1,2016-07-16
-"43","PS4","NBA 2K17","Visual Concepts","2K Games","86.10","21",1,"Sports",408517,408517,1,2016-09-17
-"44","XONE","Titanfall 2","Respawn Entertainment","Electronic Arts","86.06","16",6,"Shooter",105576,105576,1,2016-10-29
-"45","PC","Pony Island","Daniel Mullins Games","Daniel Mullins Games","86.00","17",NA,NA,NA,NA,NA,NA
-"46","WIIU","The Legend of Zelda Twilight Princess HD","Tantalus Interactive","Nintendo","85.98","47",1,"Action",225812,225812,1,2016-03-05
-"47","XONE","Gears of War 4","The Coalition","Microsoft Game Studios","85.86","57",1,"Shooter",346936,346936,1,2016-10-15
-"48","PC","Rise of the Tomb Raider","Nixxes Software","Square Enix","85.86","21",NA,NA,NA,NA,NA,NA
-"49","PS4","Resident Evil 4","Capcom","Capcom","85.85","13",7,"Shooter",15129,15129,1,2016-09-03
-"50","PC","Total War WARHAMMER","Creative Assembly","Sega","85.85","42",NA,NA,NA,NA,NA,NA
-"51","PS4","DOOM","id Software","Bethesda Softworks","85.82","42",2,"Shooter",155486,155486,1,2016-05-14
-"52","XONE","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","85.70","10",NA,NA,NA,NA,NA,NA
-"53","3DS","Shin Megami Tensei IV Apocalypse","Atlus","Atlus","85.68","22",9,"Role-Playing",21459,21459,1,2016-09-24
-"54","XONE","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","85.62","13",4,"Role-Playing",48223,48223,1,2016-08-27
-"55","PS4","Thumper","Drool","Drool","85.57","27",NA,NA,NA,NA,NA,NA
-"56","PC","ABZU","Giant Squid","505  Games","85.54","13",NA,NA,NA,NA,NA,NA
-"57","PS4","Assault Android Cactus","Witch Beam","Witch Beam","85.39","18",NA,NA,NA,NA,NA,NA
-"58","PC","DOOM","id Software","Bethesda Softworks","85.38","21",NA,NA,NA,NA,NA,NA
-"59","3DS","Fire Emblem Fates Conquest","Intelligent Systems","Nintendo","85.31","24",NA,NA,NA,NA,NA,NA
-"60","PS4","The Witness","Thekla, Inc","Thekla, Inc","85.31","53",NA,NA,NA,NA,NA,NA
-"61","PC","Hyper Light Drifter","Heart Machine","Heart Machine","85.12","21",NA,NA,NA,NA,NA,NA
-"62","PC","Planet Coaster","Frontier Developments","Frontier Developments","85.02","23",NA,NA,NA,NA,NA,NA
-"63","XONE","BioShock The Collection","2K Games","2K Games","85.00","13",8,"Shooter",40007,40007,1,2016-09-17
-"64","PS4","Hitman","Io Interactive","Square Enix","84.95","21",NA,NA,NA,NA,NA,NA
-"65","XONE","XCOM 2","Firaxis Games","2K Games","84.90","10",24,"Strategy",8285,8285,1,2016-10-01
-"66","PS4","DiRT Rally","Codemasters","Codemasters","84.87","24",23,"Racing",10787,10787,1,2016-04-09
-"67","PS4","Pro Evolution Soccer 2017","Konami","Konami","84.85","31",39,"Sports",0,0,1,2016-09-17
-"68","PS4","Day of the Tentacle Remastered","Double Fine Productions","Double Fine Productions","84.83","15",NA,NA,NA,NA,NA,NA
-"69","PS4","Guilty Gear Xrd -REVELATOR-","Arc System Works","Aksys Games","84.59","22",16,"Fighting",10694,10694,1,2016-06-11
-"70","PS4","Call of Duty Modern Warfare Remastered","Infinity Ward","Activision","84.55","11",NA,NA,NA,NA,NA,NA
-"71","PC","Devil Daggers","Sorath","Sorath","84.55","11",NA,NA,NA,NA,NA,NA
-"72","PS4","ZEN Pinball 2 Aliens Vs. Pinball","Zen Studios","Zen Studios","84.50","10",NA,NA,NA,NA,NA,NA
-"73","XONE","F1 2016","Codemasters","Codemasters","84.50","10",28,"Racing",5515,5515,1,2016-08-20
-"74","PS4","Plants vs Zombies Garden Warfare 2","PopCap","PopCap","84.50","18",6,"Shooter",56696,56696,1,2016-02-27
-"75","XONE","The Elder Scrolls V Skyrim Special Edition","Bethesda Game Studios","Bethesda Softworks","84.40","15",2,"Role-Playing",189683,189683,1,2016-10-29
-"76","PS4","Salt and Sanctuary","Ska Studios","Ska Studios","84.39","35",NA,NA,NA,NA,NA,NA
-"77","PS4","Hitman - Episode 2 Sapienza","Io Interactive","Square Enix","84.38","26",NA,NA,NA,NA,NA,NA
-"78","XONE","FRU","Through Games","Through Games","84.33","15",NA,NA,NA,NA,NA,NA
-"79","3DS","Fire Emblem Fates Birthright","Intelligent Systems","Nintendo","84.25","26",NA,NA,NA,NA,NA,NA
-"80","PS4","FIFA 17","EA Vancouver","EA Sports","84.20","28",1,"Sports",256664,256664,1,2016-10-01
-"81","PS4","Dragon Quest Builders","Square Enix","Square Enix","84.07","42",21,"Role-Playing",18554,18554,1,2016-10-15
-"82","PS4","BlazBlue Central Fiction","Arc System Works","Arc System Works","84.00","12",20,"Fighting",19646,19646,1,2016-11-05
-"83","PC","Quadrilateral Cowboy","Blendo Games","Blendo Games","84.00","22",NA,NA,NA,NA,NA,NA
-"84","PC","Dishonored 2","Arkane Studios","Bethesda Softworks","83.88","16",22,"Action",22975,22975,1,2016-11-12
-"85","PC","INSIDE","PLAYDEAD","PLAYDEAD","83.86","12",NA,NA,NA,NA,NA,NA
-"86","3DS","Kirby Planet Robobot","HAL Labs","Nintendo","83.62","42",1,"Action",62539,62539,1,2016-06-11
-"87","PS4","Watch Dogs 2","Ubisoft Montreal","Ubisoft","83.61","52",2,"Action",264296,264296,1,2016-11-19
-"88","PS4","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","83.57","35",3,"Role-Playing",62740,62740,1,2016-08-27
-"89","PS4","The Last Guardian","SCE Japan Studio","Sony Interactive Entertainment","83.50","40",NA,NA,NA,NA,NA,NA
-"90","PC","Enter the Gungeon","Dodge Roll","Devolver Digital","83.48","20",NA,NA,NA,NA,NA,NA
-"91","3DS","Bravely Second End Layer","Silicon Studio","Square Enix","83.41","44",4,"Role-Playing",72617,72617,1,2016-04-16
-"92","PC","The Banner Saga 2","Stoic","Versus Evil","83.39","36",NA,NA,NA,NA,NA,NA
-"93","PS4","BioShock The Collection","2K Games","2K Games","83.35","20",7,"Shooter",54259,54259,1,2016-09-17
-"94","XONE","SUPERHOT","SUPERHOT","SUPERHOT","83.33","15",NA,NA,NA,NA,NA,NA
-"95","PS4","Final Fantasy XV","Square Enix","Square Enix","83.28","39",NA,NA,NA,NA,NA,NA
-"96","PS4","Invisible, Inc. Console Edition","Klei Entertainment","Klei Entertainment","83.23","13",NA,NA,NA,NA,NA,NA
-"97","PS4","Hitman - Episode 6 Hokkaido","Io Interactive","Square Enix","82.91","11",NA,NA,NA,NA,NA,NA
-"98","3DS","Rhythm Heaven Megamix","Nintendo","Nintendo","82.83","18",NA,NA,NA,NA,NA,NA
-"99","PC","Hearts of Iron IV","Paradox Development Studio","Paradox Interactive","82.75","12",NA,NA,NA,NA,NA,NA
-"100","3DS","Pocket Card Jockey","Game Freak","Game Freak","82.69","13",NA,NA,NA,NA,NA,NA
-"101","VITA","Severed","DrinkBox Studios","DrinkBox Studios","82.67","48",NA,NA,NA,NA,NA,NA
-"102","WIIU","Tokyo Mirage Sessions #FE","Atlus","Nintendo","82.59","38",1,"Role-Playing",52410,52410,1,2016-06-25
-"103","PC","Firewatch","Campo Santo","Panic Inc.","82.54","37",NA,NA,NA,NA,NA,NA
-"104","VITA","Zero Escape Zero Time Dilemma","Chime","Aksys Games","82.50","28",11,"Adventure",18587,18587,1,2016-07-02
-"105","VITA","The Legend of Heroes Trails of Cold Steel II","Falcom","Falcom","82.44","16",13,"Role-Playing",10714,10714,1,2016-09-10
-"106","3DS","Dragon Quest VII Fragments of the Forgotten Past","ArtePiazza","Square Enix","82.43","30",10,"Role-Playing",31945,31945,1,2016-09-17
-"107","XONE","Madden NFL 17","EA Sports","EA Sports","82.43","20",2,"Sports",304092,304092,1,2016-08-27
-"108","PS4","Enter the Gungeon","Dodge Roll","Devolver Digital","82.39","23",NA,NA,NA,NA,NA,NA
-"109","PS4","Madden NFL 17","EA Sports","EA Sports","82.31","27",1,"Sports",421692,421692,1,2016-08-27
-"110","PC","1979 Revolution Black Friday","iNK Stories","iNK Stories","82.29","14",NA,NA,NA,NA,NA,NA
-"111","XONE","Letter Quest Grimm's Journey Remastered","Bacon Bandit Games","Digerati Distribution","82.20","10",NA,NA,NA,NA,NA,NA
-"112","PS4","Pac-Man 256","HIPSTER WHALE","Bandai Namco Games","82.12","16",NA,NA,NA,NA,NA,NA
-"113","PS4","Steins;Gate 0","5pb","5pb","82.00","10",NA,NA,NA,NA,NA,NA
-"114","XONE","10 Second Ninja X","GameDesignDan","Curve Digital","82.00","10",NA,NA,NA,NA,NA,NA
-"115","PC","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","81.96","35",NA,NA,NA,NA,NA,NA
-"116","PC","Oxenfree","Night School Studio","Night School Studio","81.96","27",NA,NA,NA,NA,NA,NA
-"117","PS4","F1 2016","Codemasters","Codemasters","81.93","27",21,"Racing",6302,6302,1,2016-08-20
-"118","PS4","Skylanders Imaginators","Toys for Bob","Activision","81.88","33",24,"Platform",14522,14522,1,2016-10-22
-"119","PC","Dragon's Dogma Dark Arisen","Capcom","Capcom","81.76","34",NA,NA,NA,NA,NA,NA
-"120","XONE","FIFA 17","EA Vancouver","EA Sports","81.62","16",2,"Sports",157445,157445,1,2016-10-01
-"121","XONE","Hue","Fiddlesticks Games","Curve Digital","81.55","11",NA,NA,NA,NA,NA,NA
-"122","3DS","Phoenix Wright Ace Attorney - Spirit of Justice","Capcom","Capcom","81.41","39",NA,NA,NA,NA,NA,NA
-"123","PC","Duelyst","Counterplay Games","Counterplay Games","81.36","11",NA,NA,NA,NA,NA,NA
-"124","IOS","Deus Ex GO","Square Enix Montreal","Square Enix","81.32","20",NA,NA,NA,NA,NA,NA
-"125","XONE","Fallout 4 Far Harbor","Bethesda Game Studios","Bethesda Softworks","81.25","12",NA,NA,NA,NA,NA,NA
-"126","PC","Zombie Night Terror","NoClip","Gambitious","81.22","18",NA,NA,NA,NA,NA,NA
-"127","XONE","Tom Clancy's The Division","Massive Entertainment","Ubisoft","81.21","24",2,"Shooter",476413,476413,1,2016-03-12
-"128","XONE","The Turing Test","Bulkhead Interactive","Square Enix","81.15","13",NA,NA,NA,NA,NA,NA
-"129","PS4","Prison Architect","Double Eleven","Double Eleven","81.06","16",65,"Action",0,0,1,2016-07-02
-"130","3DS","BoxBoxBoy!","HAL Labs","Nintendo","81.06","17",NA,NA,NA,NA,NA,NA
-"131","PC","Tyranny","Obsidian Entertainment","Paradox Interactive","81.00","29",NA,NA,NA,NA,NA,NA
-"132","PC","Football Manager 2017","Sports Interactive","Sega","80.94","17",NA,NA,NA,NA,NA,NA
-"133","PS4","NHL 17","EA Vancouver","Electronic Arts","80.90","20",4,"Sports",69860,69860,1,2016-09-17
-"134","3DS","Corpse Party","5pb","Mages.","80.77","13",NA,NA,NA,NA,NA,NA
-"135","PS4","Gravity Rush Remastered","Bluepoint Games","SCEI","80.51","35",NA,NA,NA,NA,NA,NA
-"136","XONE","Plants vs Zombies Garden Warfare 2","PopCap","Electronic Arts","80.50","44",4,"Shooter",77943,77943,1,2016-02-27
-"137","PS4","The Elder Scrolls V Skyrim Special Edition","Bethesda Game Studios","Bethesda Softworks","80.47","19",1,"Role-Playing",228285,228285,1,2016-10-29
-"138","PS4","Trackmania Turbo","Nadeo","Ubisoft","80.46","26",NA,NA,NA,NA,NA,NA
-"139","PC","That Dragon, Cancer","Numinous Games","Numinous Games","80.42","26",NA,NA,NA,NA,NA,NA
-"140","PS4","Call of Duty Black Ops III - Awakening","Treyarch","Activision","80.36","14",NA,NA,NA,NA,NA,NA
-"141","PS4","Hatsune Miku Project Diva X","Sega","Sega","80.35","20",14,"Misc",11449,11449,1,2016-09-03
-"142","PC","Offworld Trading Company","Mohawk Games","Stardock","80.18","17",NA,NA,NA,NA,NA,NA
-"143","PS4","World of Final Fantasy","Square Enix","Square Enix","80.14","46",10,"Role-Playing",44551,44551,1,2016-10-29
-"144","PS4","RIGS Mechanized Combat League","Guerilla Cambridge","Sony Interactive Entertainment","80.09","27",31,"Action",0,0,1,2016-10-15
-"145","PS4","Tom Clancy's The Division","Massive Entertainment","Ubisoft","80.04","39",1,"Shooter",566255,566255,1,2016-03-12
-"146","PS4","The Banner Saga","Stoic","Versus Evil","80.00","17",NA,NA,NA,NA,NA,NA
-"147","PS4","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","79.94","18",NA,NA,NA,NA,NA,NA
-"148","PS4","Score Rush Extended","Xona Games","Xona Games","79.90","10",NA,NA,NA,NA,NA,NA
-"149","XONE","Darksiders Warmastered Edition","Nordic Games Publishing","Nordic Games Publishing","79.73","11",NA,NA,NA,NA,NA,NA
-"150","PC","Crashlands","Butterscotch Shenanigans","Butterscotch Shenanigans","79.70","10",NA,NA,NA,NA,NA,NA
-"151","PS4","Unravel","Coldwood Interactive","Electronic Arts","79.68","45",NA,NA,NA,NA,NA,NA
-"152","XONE","Overcooked","Ghost Town Games Ltd.","Team 17","79.59","11",NA,NA,NA,NA,NA,NA
-"153","3DS","7th Dragon III Code VFD","Sega","Sega","79.56","18",8,"Role-Playing",18234,18234,1,2016-07-16
-"154","PS4","ABZU","Giant Squid","505 Games","79.52","48",NA,NA,NA,NA,NA,NA
-"155","PC","Worms W.M.D","Team 17","Team 17","79.50","12",NA,NA,NA,NA,NA,NA
-"156","PC","The Metronomicon","Puuba","Kasedo Games","79.50","10",NA,NA,NA,NA,NA,NA
-"157","XONE","Far Cry Primal","Ubisoft Montreal","Ubisoft","79.45","19",2,"Action",189697,189697,1,2016-02-27
-"158","PC","Homeworld Deserts of Kharak","Blackbird Interactive","Gearbox Software","79.39","33",NA,NA,NA,NA,NA,NA
-"159","PS4","Alienation","Housemarque","SCEA","79.33","35",NA,NA,NA,NA,NA,NA
-"160","PS4","EA Sports UFC 2","EA Sports","EA Sports","79.30","20",4,"Sports",120675,120675,1,2016-03-19
-"161","PC","Battlefleet Gothic Armada","Tindalos Interactive","Focus Home Interactive","79.29","17",NA,NA,NA,NA,NA,NA
-"162","3DS","Mega Man Legacy Collection","Digital Eclipse","Capcom","79.25","18",5,"Platform",59209,59209,1,2016-02-27
-"163","PC","DeathSmiles","Cave","Degica","79.25","10",NA,NA,NA,NA,NA,NA
-"164","PC","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","79.19","16",NA,NA,NA,NA,NA,NA
-"165","XONE","Oxenfree","Night School Studio","Night School Studio","79.18","22",NA,NA,NA,NA,NA,NA
-"166","PS4","Oxenfree","Night School Studio","Night School Studio","79.18","11",NA,NA,NA,NA,NA,NA
-"167","PS4","Naruto Shippuden Ultimate Ninja Storm 4","CyberConnect2","Bandai Namco Games","79.16","32",1,"Fighting",112846,112846,1,2016-02-13
-"168","PS4","Darkest Dungeon","Red Hook Studios","Red Hook Studios","79.09","11",NA,NA,NA,NA,NA,NA
-"169","PC","Shadow Warrior 2","Flying Wild Hog","Devolver Digital","78.98","32",NA,NA,NA,NA,NA,NA
-"170","PS4","Headlander","Double Fine Productions","Adult Swim","78.97","29",NA,NA,NA,NA,NA,NA
-"171","XONE","NHL 17","EA Vancouver","EA Games","78.87","16",6,"Sports",67400,67400,1,2016-09-17
-"172","PS4","Overcooked","Ghost Town Games Ltd.","Team 17","78.81","21",NA,NA,NA,NA,NA,NA
-"173","PS4","The King of Fighters XIV","SNK Playmore","SNK Playmore","78.80","37",6,"Fighting",26739,26739,1,2016-08-27
-"174","PC","Kathy Rain","Clifftop Games","Raw Fury","78.71","17",NA,NA,NA,NA,NA,NA
-"175","PS4","Amnesia Collection","Frictional Games","Frictional Games","78.64","11",NA,NA,NA,NA,NA,NA
-"176","PS4","Call of Duty Infinite Warfare","Infinity Ward","Activision","78.50","52",1,"Shooter",830989,830989,1,2016-11-05
-"177","PC","Tom Clancy's The Division","Massive Entertainment","Ubisoft","78.43","14",3,"Shooter",87149,87149,1,2016-03-12
-"178","PS4","Hitman - Intro Pack","Io Interactive","Square Enix","78.35","44",NA,NA,NA,NA,NA,NA
-"179","XONE","This War of Mine The Little Ones","11 bit studios","Deep Silver","78.20","15",NA,NA,NA,NA,NA,NA
-"180","XONE","Call of Duty Infinite Warfare","Infinity Ward","Activision","78.20","10",2,"Shooter",781551,781551,1,2016-11-05
-"181","PS4","Downwell","Moppin","Devolver Digital","78.18","11",NA,NA,NA,NA,NA,NA
-"182","PS4","Killing Floor 2","Tripwire Interactive","Tripwire Interactive","78.15","23",40,"Shooter",0,0,1,2016-11-19
-"183","PS4","LEGO Star Wars The Force Awakens","TT Games","Warner Bros. Interactive Entertainment","78.01","35",NA,NA,NA,NA,NA,NA
-"184","PS4","Worms W.M.D","Team 17","Team 17","77.94","18",53,"Action",0,0,1,2016-08-27
-"185","XONE","Quantum Break","Remedy Entertainment","Microsoft Game Studios","77.91","67",1,"Action",102482,102482,1,2016-04-09
-"186","PS4","Hitman GO Definitive Edition","Square Enix Montreal","Square Enix","77.90","21",NA,NA,NA,NA,NA,NA
-"187","PS4","Hue","Fiddlesticks Games","Curve Digital","77.88","26",NA,NA,NA,NA,NA,NA
-"188","PC","Xanadu Next","Falcom","Falcom","77.85","13",NA,NA,NA,NA,NA,NA
-"189","PS4","Pac-Man Championship Edition 2","Bandai Namco Games","Bandai Namco Games","77.80","15",NA,NA,NA,NA,NA,NA
-"190","PC","VA-11 Hall-A Cyberpunk Bartender Action","Sukeban Games","Ysbryd Games","77.54","13",NA,NA,NA,NA,NA,NA
-"191","PS4","Grand Kingdom","Spike Chunsoft","Spike Chunsoft","77.48","21",25,"Role-Playing",10086,10086,1,2016-07-02
-"192","PC","Obduction","Cyan Worlds","Cyan Worlds","77.47","16",NA,NA,NA,NA,NA,NA
-"193","VITA","Shiren the Wanderer The Tower of Fortune and the Dice of Fate","Spike Chunsoft","Spike Chunsoft","77.42","24",NA,NA,NA,NA,NA,NA
-"194","PS4","Street Fighter V","Capcom","Capcom","77.40","59",2,"Fighting",213549,213549,1,2016-02-20
-"195","PC","Samorost 3","Amanita Design","Amanita Design","77.31","16",NA,NA,NA,NA,NA,NA
-"196","PS4","Klaus","La Cosa Entertainment","La Cosa Entertainment","77.31","21",NA,NA,NA,NA,NA,NA
-"197","PC","Stellaris","Paradox Development Studio","Paradox Interactive","77.30","28",NA,NA,NA,NA,NA,NA
-"198","XONE","Virginia","505 Games","505 Games","77.27","11",NA,NA,NA,NA,NA,NA
-"199","XONE","Fallout 4 Automatron","Bethesda Game Studios","Bethesda Softworks","77.18","11",NA,NA,NA,NA,NA,NA
-"200","PS4","Shu","Coatsink Software","Coatsink Software","77.17","12",NA,NA,NA,NA,NA,NA
-"201","PS4","Headmaster","Frame Interactive","Sony Interactive Entertainment","77.07","15",NA,NA,NA,NA,NA,NA
-"202","3DS","Azure Striker Gunvolt 2","Inti Creates","Inti Creates","77.00","10",NA,NA,NA,NA,NA,NA
-"203","PC","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","76.95","30",NA,NA,NA,NA,NA,NA
-"204","WIIU","Pokken Tournament","Bandai Namco Games","Nintendo","76.91","47",2,"Fighting",160410,160410,1,2016-03-19
-"205","VITA","Superdimension Neptune VS Sega Hard Girls","Compile Heart","Compile Heart","76.91","11",NA,NA,NA,NA,NA,NA
-"206","PS4","Layers of Fear","Bloober Team","Aspyr","76.89","28",NA,NA,NA,NA,NA,NA
-"207","PS4","Batman Arkham VR","Rocksteady Studios","Warner Bros. Interactive Entertainment","76.86","35",15,"Action",23827,23827,1,2016-10-15
-"208","PS4","Far Cry Primal","Ubisoft Montreal","Ubisoft","76.77","57",1,"Action",250483,250483,1,2016-02-27
-"209","PS4","Furi","The Game Bakers","The Game Bakers","76.72","25",NA,NA,NA,NA,NA,NA
-"210","XONE","LEGO Star Wars The Force Awakens","TT Games","Warner Bros. Interactive Entertainment","76.50","10",NA,NA,NA,NA,NA,NA
-"211","PC","American Truck Simulator","SCS Software","Excalibur Publishing","76.37","16",NA,NA,NA,NA,NA,NA
-"212","3DS","Mario & Luigi Paper Jam","Alphadream Corporation","Nintendo","76.37","52",2,"Role-Playing",56988,56988,1,2016-01-23
-"213","VITA","Yomawari Night Alone","Nippon Ichi Software","Nippon Ichi Software","76.33","12",NA,NA,NA,NA,NA,NA
-"214","PS4","10 Second Ninja X","GameDesignDan","Curve Digital","76.31","16",NA,NA,NA,NA,NA,NA
-"215","PC","Virginia","Variable State","505 Games","76.28","18",NA,NA,NA,NA,NA,NA
-"216","PC","Event[0]","Ocelot Society","Ocelot Society","76.16","25",NA,NA,NA,NA,NA,NA
-"217","XONE","Unravel","Coldwood Interactive","Electronic Arts","76.16","19",NA,NA,NA,NA,NA,NA
-"218","PS4","Atelier Sophie The Alchemist of the Mysterious Book","Gust","Koei Tecmo Games","76.15","23",29,"Role-Playing",7411,7411,1,2016-06-11
-"219","PS4","Digimon Story Cyber Sleuth","Media Vision","Bandai Namco Games","76.15","33",NA,NA,NA,NA,NA,NA
-"220","PC","Street Fighter V","Capcom","Capcom","76.13","16",NA,NA,NA,NA,NA,NA
-"221","PS4","Firewatch","Campo Santo","Panic Inc.","76.10","34",NA,NA,NA,NA,NA,NA
-"222","PS4","I Am Setsuna","Tokyo RPG Factory","Square Enix","76.10","51",NA,NA,NA,NA,NA,NA
-"223","PS4","The Deadly Tower of Monsters","ACE Team","Atlus","75.87","16",NA,NA,NA,NA,NA,NA
-"224","PC","Seasons After Fall","Swing Swing Submarine","Focus Home Interactive","75.83","12",NA,NA,NA,NA,NA,NA
-"225","WIIU","Paper Mario Color Splash","Intelligent Systems","Nintendo","75.82","44",7,"Role-Playing",49910,49910,1,2016-10-08
-"226","XONE","The Flame in the Flood","The Molasses Flood","The Molasses Flood","75.81","21",NA,NA,NA,NA,NA,NA
-"227","PC","Cities Skylines Snowfall","Colossal Order","Paradox Interactive","75.80","10",NA,NA,NA,NA,NA,NA
-"228","VITA","Atelier Escha & Logy Plus Alchemists of the Dusk Sky","Gust","Koei Tecmo Games","75.77","22",NA,NA,NA,NA,NA,NA
-"229","PC","The Final Station","Do My Best Games","tinyBuild","75.75","16",NA,NA,NA,NA,NA,NA
-"230","PS4","Stories The Path of Destinies","Spearhead Games","Spearhead Games","75.71","33",NA,NA,NA,NA,NA,NA
-"231","PS4","Lumo","Triple Eh? Ltd","Rising Star Games","75.45","20",NA,NA,NA,NA,NA,NA
-"232","PS4","Not a Hero","roll7","Devolver Digital","75.43","21",NA,NA,NA,NA,NA,NA
-"233","PS4","SuperHyperCube","KOKOROMI","Polytron Corp.","75.36","14",NA,NA,NA,NA,NA,NA
-"234","PS4","This War of Mine The Little Ones","11 bit studios","Deep Silver","75.26","19",NA,NA,NA,NA,NA,NA
-"235","PC","Shardlight","Wadjet Eye Games","Wadjet Eye Games","75.25","12",NA,NA,NA,NA,NA,NA
-"236","PS4","Duke Nukem 3D 20th Anniversary World Tour","Gearbox Software","Gearbox Software","75.25","16",53,"Shooter",0,0,1,2016-10-22
-"237","PC","Pac-Man Championship Edition 2","Bandai Namco Games","Bandai Namco Games","75.19","13",NA,NA,NA,NA,NA,NA
-"238","PC","The Turing Test","Bulkhead Interactive","Square Enix","75.15","13",NA,NA,NA,NA,NA,NA
-"239","XONE","The Banner Saga","Stoic","Versus Evil","75.10","10",NA,NA,NA,NA,NA,NA
-"240","PC","Batman The Telltale Series - Episode 2: Children of Arkham","Telltale Games","Telltale Games","75.00","16",NA,NA,NA,NA,NA,NA
-"241","PS4","Virginia","505 Games","505 Games","74.92","18",NA,NA,NA,NA,NA,NA
-"242","PC","Master of Orion","NGD Studios","WG Labs","74.84","16",NA,NA,NA,NA,NA,NA
-"243","XONE","Action Henk","RageSquid","RageSquid","74.83","12",NA,NA,NA,NA,NA,NA
-"244","PS4","Attack on Titan","Omega Force","Koei Tecmo Games","74.78","41",9,"Action",14000,14000,1,2016-09-03
-"245","PS4","Eagle Flight","FunHouse","Ubisoft","74.77","13",NA,NA,NA,NA,NA,NA
-"246","PC","Headlander","Double Fine Productions","Adult Swim","74.75","16",NA,NA,NA,NA,NA,NA
-"247","PS4","Valley","Blue Isle Studios","Blue Isle Studios","74.71","14",NA,NA,NA,NA,NA,NA
-"248","3DS","Sega 3D Classics Collection","M2","Sega","74.69","16",NA,NA,NA,NA,NA,NA
-"249","XONE","Worms W.M.D","Team 17","Team 17","74.67","15",73,"Action",0,0,1,2016-08-27
-"250","PC","God Eater 2 Rage Burst","Shift","Bandai Namco Games","74.67","12",NA,NA,NA,NA,NA,NA
-"251","PS4","Heavy Rain","Virtuos","SCEE","74.53","17",NA,NA,NA,NA,NA,NA
-"252","PS4","Push Me Pull You","House House","House House","74.50","10",NA,NA,NA,NA,NA,NA
-"253","XONE","EA Sports UFC 2","EA Sports","EA Sports","74.45","28",5,"Sports",105458,105458,1,2016-03-19
-"254","PC","The Flame in the Flood","The Molasses Flood","The Molasses Flood","74.35","26",NA,NA,NA,NA,NA,NA
-"255","PS4","EVE Valkyrie","CCP","CCP","74.33","12",34,"Shooter",0,0,1,2016-10-15
-"256","PS4","Stikbold! A Dodgeball Adventure","Reign Bros","Reign Bros","74.25","16",NA,NA,NA,NA,NA,NA
-"257","XONE","Dead Rising 4","Capcom","Microsoft Game Studios","74.24","38",NA,NA,NA,NA,NA,NA
-"258","PS4","The Magic Circle Gold Edition","Question","Question","74.23","13",NA,NA,NA,NA,NA,NA
-"259","PS4","Job Simulator","Owlchemy Labs","Owlchemy Labs","74.20","10",NA,NA,NA,NA,NA,NA
-"260","WIIU","Star Fox Guard","PlatinumGames","Nintendo","74.19","21",NA,NA,NA,NA,NA,NA
-"261","XONE","Shadow Complex Remastered","Chair Entertainment","Epic Games","74.09","11",NA,NA,NA,NA,NA,NA
-"262","GBA","Kuru Kuru Kururin","Eighting","Nintendo","74.00","11",NA,NA,NA,NA,NA,NA
-"263","PS4","Hitman - Episode 3 Marrakesh","Io Interactive","Square Enix","73.88","17",NA,NA,NA,NA,NA,NA
-"264","PC","TASTEE Lethal Tactics","SkyBox Labs","SkyBox Labs","73.80","10",NA,NA,NA,NA,NA,NA
-"265","PS4","Amplitude","Harmonix Music Systems","Harmonix Music Systems","73.79","45",NA,NA,NA,NA,NA,NA
-"266","PS4","Strike Vector EX","Ragequit Corporation","Ragequit Corporation","73.69","13",NA,NA,NA,NA,NA,NA
-"267","PC","Batman The Telltale Series - Episode 3: New World Order","Telltale Games","Telltale Games","73.58","12",NA,NA,NA,NA,NA,NA
-"268","XONE","Stranger of Sword City","Experience Inc.","Experience Inc.","73.50","10",NA,NA,NA,NA,NA,NA
-"269","PS4","Until Dawn Rush of Blood","SuperMassive Games","Sony Interactive Entertainment","73.31","29",23,"Adventure",13620,13620,1,2016-10-15
-"270","VITA","Stranger of Sword City","Experience Inc.","Experience Inc.","73.30","20",NA,NA,NA,NA,NA,NA
-"271","PC","Black Desert Online","Pearl Abyss","GameOn","73.30","10",NA,NA,NA,NA,NA,NA
-"272","3DS","Return to PoPoLoCrois A Story of Seasons Fairytale","Marvelous Inc.","Marvelous Inc.","73.29","28",NA,NA,NA,NA,NA,NA
-"273","PC","Dark Souls III Ashes of Ariandel","From Software","Bandai Namco Games","73.00","17",NA,NA,NA,NA,NA,NA
-"274","XONE","Jotun Valhalla Edition","Thunder Lotus Games","Thunder Lotus Games","73.00","10",NA,NA,NA,NA,NA,NA
-"275","PC","The Deadly Tower of Monsters","ACE Team","Atlus","73.00","11",NA,NA,NA,NA,NA,NA
-"276","XONE","Rise of the Tomb Raider Baba Yaga - The Temple of the Witch","Crystal Dynamics","Square Enix","72.92","12",NA,NA,NA,NA,NA,NA
-"277","PS4","Republique","Camouflaj, LLC","GungHo","72.89","27",NA,NA,NA,NA,NA,NA
-"278","VITA","Ray Gigant","Bandai Namco Games","Bandai Namco Games","72.87","15",NA,NA,NA,NA,NA,NA
-"279","PS4","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","72.87","15",NA,NA,NA,NA,NA,NA
-"280","PS4","Batman Return to Arkham","Rocksteady Studios","Warner Bros. Interactive Entertainment","72.80","15",6,"Action",35710,35710,1,2016-10-22
-"281","PS4","Destiny Rise of Iron","Bungie","Activision","72.49","43",NA,NA,NA,NA,NA,NA
-"282","XONE","Prison Architect","Double Eleven","Double Eleven","72.45","11",NA,NA,NA,NA,NA,NA
-"283","PS4","Wayward Sky","Uber Entertainment","Uber Entertainment","72.36","11",NA,NA,NA,NA,NA,NA
-"284","PS4","Tricky Towers","WeirdBeard","WeirdBeard","72.33","12",NA,NA,NA,NA,NA,NA
-"285","3DS","Project X Zone 2","Monolith Soft","Bandai Namco Games","72.30","38",NA,NA,NA,NA,NA,NA
-"286","XONE","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","72.27","11",NA,NA,NA,NA,NA,NA
-"287","PS4","Alone With You","Benjamin Rivers","Benjamin Rivers","72.20","15",NA,NA,NA,NA,NA,NA
-"288","3DS","Hyrule Warriors Legends","Omega Force","Nintendo","72.18","33",3,"Action",85494,85494,1,2016-03-26
-"289","3DS","Super Mario Maker for Nintendo 3DS","Nintendo","Nintendo","72.02","24",NA,NA,NA,NA,NA,NA
-"290","PS4","Neverending Nightmares","Infinitap Games","Infinitap Games","72.00","10",NA,NA,NA,NA,NA,NA
-"291","PS4","Dragon Ball Xenoverse 2","Dimps Corporation","Bandai Namco Games","72.00","25",5,"Action",136003,136003,1,2016-10-29
-"292","XONE","Resident Evil 0 HD Remaster","Capcom","Capcom","71.96","24",NA,NA,NA,NA,NA,NA
-"293","PS4","Psycho-Pass Mandatory Happiness","5pb","NIS America","71.87","15",17,"Adventure",14301,14301,1,2016-09-17
-"294","XONE","Battleborn","Gearbox Software","2K Games","71.75","16",2,"Shooter",44074,44074,1,2016-05-07
-"295","PC","The Walking Dead Michonne - Episode 3: What We Deserve","Telltale Games","Telltale Games","71.74","19",NA,NA,NA,NA,NA,NA
-"296","PC","I Am Setsuna","Tokyo RPG Factory","Square Enix","71.68","11",NA,NA,NA,NA,NA,NA
-"297","PC","The Collider 2","Shortbreak Studios","Shortbreak Studios","71.67","12",NA,NA,NA,NA,NA,NA
-"298","PS4","LEGO Marvel's Avengers","TT Games","Warner Bros. Interactive Entertainment","71.54","42",2,"Action",49303,49303,1,2016-01-30
-"299","PS4","No Man's Sky","Hello Games","Hello Games","71.42","60",1,"Action",411484,411484,1,2016-08-13
-"300","PS4","Bound","Plastic Studios","Sony Interactive Entertainment","71.34","37",NA,NA,NA,NA,NA,NA
-"301","PS4","Megadimension Neptunia VII","Compile Heart","Compile Heart","71.25","20",NA,NA,NA,NA,NA,NA
-"302","PS4","Aragami","Lince Works","Lince Works","71.14","21",NA,NA,NA,NA,NA,NA
-"303","PS4","Sebastien Loeb Rally Evo","Milestone S.r.l","Milestone S.r.l","71.08","13",NA,NA,NA,NA,NA,NA
-"304","XONE","Oceanhorn Monster of Uncharted Seas","Cornfox & Bros.","Cornfox & Bros.","71.00","10",NA,NA,NA,NA,NA,NA
-"305","PS4","Rainbow Moon","SideQuest Studios","SideQuest Studios","71.00","10",NA,NA,NA,NA,NA,NA
-"306","PC","Punch Club","Lazy Bear Games","tinyBuild","71.00","15",NA,NA,NA,NA,NA,NA
-"307","PS4","Arslan The Warriors of Legend","Omega Force","Koei Tecmo Games","70.90","31",34,"Action",0,0,1,2016-02-13
-"308","PC","Senran Kagura Shinovi Versus","Tamsoft","XSEED Games","70.90","10",NA,NA,NA,NA,NA,NA
-"309","XONE","Mirror's Edge Catalyst","EA DICE","Electronic Arts","70.87","38",6,"Platform",30238,30238,1,2016-06-11
-"310","PS4","Hitman - Episode 4 Bangkok","Io Interactive","Square Enix","70.86","14",NA,NA,NA,NA,NA,NA
-"311","PC","Corpse Party","Mages.","Grindhouse","70.80","10",NA,NA,NA,NA,NA,NA
-"312","PS4","WWE 2K17","Yuke's","2K Sports","70.77","28",2,"Sports",90572,90572,1,2016-10-15
-"313","XONE","LEGO Marvel's Avengers","TT Games","Warner Bros. Interactive Entertainment","70.68","11",5,"Action",31504,31504,1,2016-01-30
-"314","PS4","Fallout 4 Automatron","Bethesda Game Studios","Bethesda Softworks","70.67","15",NA,NA,NA,NA,NA,NA
-"315","PS4","RIVE","Two Tribes","Two Tribes","70.67","12",NA,NA,NA,NA,NA,NA
-"316","PS4","God Eater Resurrection","Shift","Bandai Namco Games","70.56","18",NA,NA,NA,NA,NA,NA
-"317","PC","Gears of War Ultimate Edition for Windows 10","The Coalition","Microsoft Game Studios","70.50","12",NA,NA,NA,NA,NA,NA
-"318","PS4","Song of the Deep","Insomniac Games","GameTrust","70.50","30",9,"Action",16855,16855,1,2016-07-16
-"319","PS4","Brut@l","Stormcloud Games Limited","Stormcloud Games Limited","70.50","20",NA,NA,NA,NA,NA,NA
-"320","PS4","Jotun Valhalla Edition","Thunder Lotus Games","Thunder Lotus Games","70.50","10",NA,NA,NA,NA,NA,NA
-"321","PS4","Sheltered","Unicube","Team 17","70.50","12",NA,NA,NA,NA,NA,NA
-"322","XONE","Dear Esther","The Chinese Room","Curve Digital","70.42","12",NA,NA,NA,NA,NA,NA
-"323","3DS","River City Tokyo Rumble","Million","Arc System Works","70.42","12",NA,NA,NA,NA,NA,NA
-"324","3DS","Yo-Kai Watch 2 Bony Spirits","Level 5","Level 5","70.41","17",NA,NA,NA,NA,NA,NA
-"325","XONE","Fortified","Clapfoot Inc.","Clapfoot Inc.","70.32","25",NA,NA,NA,NA,NA,NA
-"326","PS4","Hitman - Episode 5 Colorado","Io Interactive","Square Enix","70.23","13",NA,NA,NA,NA,NA,NA
-"327","PS4","Samurai Warriors 4 Empires","Omega Force","Koei Tecmo Games","70.21","24",54,"Action",0,0,1,2016-03-19
-"328","PS4","Resident Evil 0 HD Remaster","Capcom","Capcom","70.20","25",NA,NA,NA,NA,NA,NA
-"329","PC","The Walking Dead Michonne - Episode 1: In Too Deep","Skybound LLC","Telltale Games","70.18","30",NA,NA,NA,NA,NA,NA
-"330","PS4","God Eater 2 Rage Burst","Shift","Bandai Namco Games","70.10","20",NA,NA,NA,NA,NA,NA
-"331","PS4","Dead Star","Armature Studio","Armature Studio","70.07","14",NA,NA,NA,NA,NA,NA
-"332","PS4","Exist Archive The Other Side of the Sky","Tri-Ace","Spike Chunsoft","70.00","11",NA,NA,NA,NA,NA,NA
-"333","PS4","Fairy Fencer F Advent Dark Force","Compile Heart","Compile Heart","70.00","17",17,"Role-Playing",9719,9719,1,2016-07-30
-"334","PS4","Fallout 4 Far Harbor","Bethesda Game Studios","Bethesda Softworks","70.00","12",NA,NA,NA,NA,NA,NA
-"335","PS4","Dark Souls III Ashes of Ariandel","From Software","Bandai Namco Games","70.00","12",NA,NA,NA,NA,NA,NA
-"336","PS4","Mirror's Edge Catalyst","EA DICE","Electronic Arts","69.92","26",2,"Platform",46024,46024,1,2016-06-11
-"337","PC","Battleborn","Gearbox Software","2K Games","69.64","14",7,"Shooter",21509,21509,1,2016-05-07
-"338","PS4","Nitroplus Blasterz Heroines Infinite Duel","Examu","Marvelous Inc.","69.53","30",NA,NA,NA,NA,NA,NA
-"339","PS4","Tumble VR","SuperMassive Games","Sony Interactive Entertainment","69.50","14",NA,NA,NA,NA,NA,NA
-"340","PS4","Amazing Discoveries In Outer Space","Cosmic Picnic","Cosmic Picnic","69.50","10",NA,NA,NA,NA,NA,NA
-"341","XONE","In Between","Gentlymad","Headup Games","69.40","10",NA,NA,NA,NA,NA,NA
-"342","PS4","Battleborn","Gearbox Software","2K Games","69.21","36",1,"Shooter",54715,54715,1,2016-05-07
-"343","PC","Demetrios - The BIG Cynical Adventure","COWCAT","COWCAT","69.10","10",NA,NA,NA,NA,NA,NA
-"344","PS4","Tharsis","Choice Provisions","Choice Provisions","69.00","15",NA,NA,NA,NA,NA,NA
-"345","3DS","Final Fantasy Explorers","Racjin","Square Enix","68.99","34",1,"Role-Playing",66748,66748,1,2016-01-30
-"346","PS4","Sherlock Holmes The Devil's Daughter","Frogwares","Bigben Interactive","68.82","17",NA,NA,NA,NA,NA,NA
-"347","WIIU","Star Fox Zero","PlatinumGames","Nintendo","68.78","58",1,"Shooter",94565,94565,1,2016-04-23
-"348","PS4","The Bunker","Splendy Games","Wales Interactive Ltd.","68.64","11",NA,NA,NA,NA,NA,NA
-"349","PC","Human Fall Flat","No Brakes Games","Curve Digital","68.39","18",NA,NA,NA,NA,NA,NA
-"350","PS4","Dear Esther Landmark Edition","The Chinese Room","Curve Digital","68.25","20",NA,NA,NA,NA,NA,NA
-"351","PS4","Rocketbirds 2 Evolution","Ratloop Asia Pte Ltd","Ratloop Asia Pte Ltd","68.23","13",NA,NA,NA,NA,NA,NA
-"352","PS4","Nights of Azure","Gust","Koei Tecmo Games","68.21","28",23,"Action",13836,13836,1,2016-04-02
-"353","PC","The Detail","Rival Games Ltd","Rival Games Ltd","68.19","16",NA,NA,NA,NA,NA,NA
-"354","XONE","TurnOn","Brainy Studio LLC","Brainy Studio LLC","68.17","12",NA,NA,NA,NA,NA,NA
-"355","PS4","Mafia III","Hangar 13","2K Games","68.09","34",1,"Action",188653,188653,1,2016-10-08
-"356","PS4","Assassin's Creed The Ezio Collection","Ubisoft Montreal","Ubisoft","68.00","11",26,"Action",24225,24225,1,2016-11-19
-"357","PS4","Sword Art Online Hollow Realization","Bandai Namco Games","Bandai Namco Games","67.67","15",19,"Role-Playing",27357,27357,1,2016-11-12
-"358","IOS","Pokemon GO","Niantic Labs","Nintendo","67.63","19",NA,NA,NA,NA,NA,NA
-"359","PS4","Battlezone","Rebellion","Rebellion","67.59","27",47,"Action",0,0,1,2016-10-15
-"360","PS4","Gal*Gun Double Peace","Inti Creates","PQube","67.31","16",NA,NA,NA,NA,NA,NA
-"361","PS4","Among the Sleep","Krillbite Studio","Krillbite Studio","67.27","11",NA,NA,NA,NA,NA,NA
-"362","PS4","Senran Kagura Estival Versus","Marvelous Inc.","Marvelous Inc.","67.25","20",7,"Action",35979,35979,1,2016-03-19
-"363","PS4","Grow Up","Ubisoft Reflections","Ubisoft","67.12","17",NA,NA,NA,NA,NA,NA
-"364","PC","ADR1FT","Three One Zero","505 Games","67.09","22",NA,NA,NA,NA,NA,NA
-"365","3DS","Yo-Kai Watch 2 Fleshy Souls","Level 5","Level 5","67.00","15",NA,NA,NA,NA,NA,NA
-"366","PS4","Lichtspeer","Lichthund","Crunching Koalas","66.82","11",NA,NA,NA,NA,NA,NA
-"367","PS4","Deadlight Director's Cut","Tequila Works","Deep Silver","66.72","18",NA,NA,NA,NA,NA,NA
-"368","XONE","Monochroma","Nowhere Studios","Nowhere Studios","66.60","10",NA,NA,NA,NA,NA,NA
-"369","PC","The Walking Dead Michonne - Episode 2: Give No Shelter","Telltale Games","Telltale Games","66.60","20",NA,NA,NA,NA,NA,NA
-"370","PS4","Dungeons 2","Kalypso","Kalypso","66.50","10",NA,NA,NA,NA,NA,NA
-"371","VITA","Trillion God of Destruction","Compile Heart","Compile Heart","66.47","19",26,"Role-Playing",13027,13027,1,2016-04-02
-"372","PS4","Romance of the Three Kingdoms XIII","Koei Tecmo Games","Koei Tecmo Games","66.47","17",44,"Action",0,0,1,2016-07-09
-"373","VITA","Criminal Girls 2 Party Favors","Nippon Ichi Software","Nippon Ichi Software","66.42","12",NA,NA,NA,NA,NA,NA
-"374","PC","Blade & Soul","NCSOFT","NCSOFT","66.33","12",NA,NA,NA,NA,NA,NA
-"375","XONE","The Technomancer","Spiders","Focus Home Interactive","66.30","10",59,"Role-Playing",0,0,1,2016-07-02
-"376","PS4","Driveclub VR","Evolution Studios","Sony Interactive Entertainment","66.22","18",NA,NA,NA,NA,NA,NA
-"377","VITA","Adventures of Mana","Square Enix","Square Enix","66.18","11",NA,NA,NA,NA,NA,NA
-"378","PS4","Full Mojo Rampage","Over the Top Games","Nicalis","66.15","13",NA,NA,NA,NA,NA,NA
-"379","PS4","Shadow of the Beast","Heavy Spectrum","SCEA","65.36","33",NA,NA,NA,NA,NA,NA
-"380","PS4","Here They Lie","The Tangentlemen","Sony Interactive Entertainment","65.29","17",NA,NA,NA,NA,NA,NA
-"381","PC","Mother Russia Bleeds","Le Cartel Studio","Devolver Digital","65.14","22",NA,NA,NA,NA,NA,NA
-"382","PS4","Neon Chrome","10tons","10tons","65.00","11",NA,NA,NA,NA,NA,NA
-"383","PC","The Westport Independent","Double Zero One Zero","Coffee Stain Studios","65.00","10",NA,NA,NA,NA,NA,NA
-"384","PS4","SportsBarVR","Cherry Pop Games","Cherry Pop Games","65.00","10",NA,NA,NA,NA,NA,NA
-"385","XONE","Hard Reset Redux","Flying Wild Hog","Gambitious","64.86","14",NA,NA,NA,NA,NA,NA
-"386","XONE","Mafia III","Hangar 13","2K Games","64.85","10",2,"Action",117614,117614,1,2016-10-08
-"387","3DS","Mario Party Star Rush","Nd Cube","Nintendo","64.69","18",19,"Misc",20720,20720,1,2016-11-05
-"388","PS4","One Piece Burning Blood","Spike Chunsoft","Bandai Namco Games","64.64","25",2,"Fighting",69150,69150,1,2016-06-04
-"389","WIIU","Mario & Sonic at the Rio 2016 Olympic Games","Sega Sports R&D","Nintendo","64.64","11",15,"Action",11443,11443,1,2016-06-25
-"390","PS4","Assetto Corsa","Kunos Simulazioni","505 Games","64.62","16",NA,NA,NA,NA,NA,NA
-"391","PS4","BROFORCE","Free Lives","Devolver Digital","64.60","10",NA,NA,NA,NA,NA,NA
-"392","3DS","Metroid Prime Federation Force","Next Level Games","Nintendo","64.50","34",10,"Action",9745,9745,1,2016-08-20
-"393","XONE","ReCore","comcept","Microsoft Game Studios","63.99","48",9,"Action",32162,32162,1,2016-09-17
-"394","PC","The Town Of Light","LKA","LKA","63.75","12",NA,NA,NA,NA,NA,NA
-"395","PC","Little King's Story","Cing","XSEED Games","63.71","14",NA,NA,NA,NA,NA,NA
-"396","PS4","Robinson The Journey","Crytek","Crytek","63.63","19",12,"Action",34261,34261,1,2016-11-12
-"397","VITA","MegaTagmension Blanc + Neptune VS Zombies","Compile Heart","Idea Factory","63.35","17",11,"Action",12367,12367,1,2016-05-14
-"398","PC","We Are The Dwarves","Whale Rock Games","Whale Rock Games","63.33","12",NA,NA,NA,NA,NA,NA
-"399","PS4","Exile's End","MagneticRealms","XSEED Games","63.27","15",NA,NA,NA,NA,NA,NA
-"400","PC","Resident Evil 0 HD Remaster","Capcom","Capcom","63.21","14",NA,NA,NA,NA,NA,NA
-"401","PS4","JoJo's Bizarre Adventure Eyes of Heaven","CyberConnect2","Bandai Namco Games","63.14","22",NA,NA,NA,NA,NA,NA
-"402","PS4","Assassin's Creed Chronicles India","Climax Studios","Ubisoft","62.85","26",NA,NA,NA,NA,NA,NA
-"403","PS4","Oceanhorn Monster of Uncharted Seas","Cornfox & Bros.","Cornfox & Bros.","62.80","10",NA,NA,NA,NA,NA,NA
-"404","XONE","Assassin's Creed Chronicles India","Climax Studios","Ubisoft","62.76","17",NA,NA,NA,NA,NA,NA
-"405","PC","Tharsis","Choice Provisions","Choice Provisions","62.66","16",NA,NA,NA,NA,NA,NA
-"406","PS4","The Witch and the Hundred Knight Revival Edition","Nippon Ichi Software","Nippon Ichi Software","62.40","15",72,"Role-Playing",0,0,1,2016-03-05
-"407","PS4","Dead Island Definitive Collection","Techland","Deep Silver","61.71","21",13,"Action",12178,12178,1,2016-06-04
-"408","PC","Gemini Heroes Reborn","Phosphor Games","Phosphor Games","61.70","10",NA,NA,NA,NA,NA,NA
-"409","PC","This Is the Police","Weappy Studio","EuroVideo Medien","61.61","18",NA,NA,NA,NA,NA,NA
-"410","PC","Soul Axiom","Wales Interactive Ltd.","Wales Interactive Ltd.","61.25","12",NA,NA,NA,NA,NA,NA
-"411","PS4","Lost Sea","EastAsiaSoft","EastAsiaSoft","60.83","12",NA,NA,NA,NA,NA,NA
-"412","3DS","Sonic Boom Fire & Ice","Sanzaru Games","Sega","60.78","18",12,"Platform",23253,23253,1,2016-10-01
-"413","PC","Crush Your Enemies","Vile Monarch","Gambitious","60.38","13",NA,NA,NA,NA,NA,NA
-"414","3DS","Chase Cold Case Investigations - Distant Memories","Arc System Works","Arc System Works","60.36","11",NA,NA,NA,NA,NA,NA
-"415","PS4","The Technomancer","Spiders","Focus Home Interactive","60.08","24",41,"Role-Playing",0,0,1,2016-07-02
-"416","PS4","Lifeless Planet Premier Edition","Stage 2 Studios","Serenity Forge","60.00","10",NA,NA,NA,NA,NA,NA
-"417","PC","Mafia III","Hangar 13","2K Games","59.96","13",11,"Action",40141,40141,1,2016-10-08
-"418","PS4","Touhou Scarlet Curiosity","Mediascape","Mediascape","59.94","17",NA,NA,NA,NA,NA,NA
-"419","XONE","Assassin's Creed Chronicles Russia","Climax Studios","Ubisoft","59.88","16",NA,NA,NA,NA,NA,NA
-"420","VITA","MeiQ Labyrinth of Death","Compile Heart","Compile Heart","59.75","16",NA,NA,NA,NA,NA,NA
-"421","PC","Necropolis","Harebrained Schemes LLC","Harebrained Schemes LLC","59.74","19",NA,NA,NA,NA,NA,NA
-"422","PS4","Kholat","IMGN.PRO","IMGN.PRO","59.17","12",NA,NA,NA,NA,NA,NA
-"423","PS4","Asemblance","Nilo Studios","Nilo Studios","59.17","12",NA,NA,NA,NA,NA,NA
-"424","XONE","Dangerous Golf","Three Fields Entertainment","Three Fields Entertainment","58.96","12",NA,NA,NA,NA,NA,NA
-"425","XONE","Gemini Heroes Reborn","Phosphor Games","Imperative Entertainment","58.90","10",NA,NA,NA,NA,NA,NA
-"426","PS4","Small Radios Big Televisions","Owen Deery","Adult Swim","58.64","11",NA,NA,NA,NA,NA,NA
-"427","XONE","MXGP2 The Official Motocross Videogame","Milestone S.r.l","PQube","58.60","10",NA,NA,NA,NA,NA,NA
-"428","PS4","Star Ocean Integrity and Faithlessness","Tri-Ace","Square Enix","58.41","40",NA,NA,NA,NA,NA,NA
-"429","PS4","100ft Robot Golf","No Goblin","No Goblin","58.33","12",NA,NA,NA,NA,NA,NA
-"430","PC","Breached","Drama Drifters","Nkidu Games Inc.","58.31","13",NA,NA,NA,NA,NA,NA
-"431","PS4","Attractio","GameCoder Studios","GameCoder Studios","57.79","14",NA,NA,NA,NA,NA,NA
-"432","PS4","Assassin's Creed Chronicles Russia","Climax Studios","Ubisoft","57.17","12",NA,NA,NA,NA,NA,NA
-"433","PS4","PlayStation VR WORLDS","Sony Interactive Entertainment","Sony Interactive Entertainment","56.96","27",NA,NA,NA,NA,NA,NA
-"434","PC","The Technomancer","Spiders","Focus Home Interactive","55.35","20",NA,NA,NA,NA,NA,NA
-"435","PS4","The Park","Funcom","Funcom","55.27","11",NA,NA,NA,NA,NA,NA
-"436","VITA","Mobile Suit Gundam Extreme VS-Force","Bandai Namco Games","Bandai Namco Games","55.27","22",NA,NA,NA,NA,NA,NA
-"437","XONE","Mighty No. 9","Inti Creates","Deep Silver","55.00","11",40,"Platform",0,0,1,2016-06-25
-"438","PS4","Touhou Genso Rondo Bullet Ballet","CUBETYPE","Mediascape","55.00","10",16,"Shooter",8365,8365,1,2016-09-10
-"439","PS4","Verdun","Blackmill Games","M2H","54.83","12",NA,NA,NA,NA,NA,NA
-"440","VITA","A.W. Phoenix Festa","Bandai Namco Games","Bandai Namco Games","54.50","14",NA,NA,NA,NA,NA,NA
-"441","XONE","Solar Shifter EX","Elder Games","Headup Games","54.50","10",NA,NA,NA,NA,NA,NA
-"442","XONE","Teenage Mutant Ninja Turtles Mutants in Manhattan","PlatinumGames","Activision","54.50","10",12,"Action",10946,10946,1,2016-05-28
-"443","PS4","Dangerous Golf","Three Fields Entertainment","Three Fields Entertainment","54.12","17",NA,NA,NA,NA,NA,NA
-"444","XONE","Trials of the Blood Dragon","RedLynx","Ubisoft","54.00","11",NA,NA,NA,NA,NA,NA
-"445","PS4","The Tomorrow Children","Q-Games","Sony Interactive Entertainment","53.93","22",NA,NA,NA,NA,NA,NA
-"446","3DS","Mario & Sonic at the Rio 2016 Olympic Games","Sega Sports R&D","Nintendo","53.67","12",49,"Action",0,0,1,2016-03-19
-"447","PS4","Pixel Gear","Geronimo Interactive","Oasis Games","53.33","12",NA,NA,NA,NA,NA,NA
-"448","PS4","ADR1FT","Three One Zero","505 Games","52.50","12",NA,NA,NA,NA,NA,NA
-"449","PS4","Shadwen","Frozenbyte, Inc.","Frozenbyte, Inc.","52.29","17",NA,NA,NA,NA,NA,NA
-"450","3DS","Sadame","Mebius","Intergrow","52.27","11",NA,NA,NA,NA,NA,NA
-"451","PS4","Koi","Oasis Games","Oasis Games","52.11","27",NA,NA,NA,NA,NA,NA
-"452","PS4","Trials of the Blood Dragon","RedLynx","Ubisoft","51.90","20",NA,NA,NA,NA,NA,NA
-"453","PC","Homefront The Revolution","Deep Silver Dambuster Studios","Deep Silver","51.08","25",NA,NA,NA,NA,NA,NA
-"454","PC","Warhammer 40,000 Eternal Crusade","Behaviour Interactive","Bandai Namco Games","51.00","10",NA,NA,NA,NA,NA,NA
-"455","PS4","Loading Human Chapter 1","Untold Games","Maximum Games","51.00","10",NA,NA,NA,NA,NA,NA
-"456","PS4","Carmageddon Max Damage","Stainless Games","Stainless Games","50.94","16",74,"Action",0,0,1,2016-07-09
-"457","PS4","Mighty No. 9","Inti Creates","Deep Silver","50.80","40",7,"Platform",23940,23940,1,2016-06-25
-"458","PC","Mighty No. 9","Inti Creates","Deep Silver","48.46","12",NA,NA,NA,NA,NA,NA
-"459","PS4","Teenage Mutant Ninja Turtles Mutants in Manhattan","PlatinumGames","Activision","47.87","35",8,"Action",23709,23709,1,2016-05-28
-"460","PS4","Harmonix Music VR","Harmonix Music Systems","Harmonix Music Systems","47.36","11",NA,NA,NA,NA,NA,NA
-"461","PS4","Homefront The Revolution","Deep Silver Dambuster Studios","Deep Silver","46.70","27",4,"Shooter",30938,30938,1,2016-05-21
-"462","PS4","Anima Gate of Memories","Anima Project","Badland Games","45.91","11",NA,NA,NA,NA,NA,NA
-"463","PS4","MilitAnt","Xibalba Studios","Creaciones Interactivas","43.18","11",NA,NA,NA,NA,NA,NA
-"464","PS4","7 Days to Die","The Fun Pimps Entertainment LLC","Telltale Games","42.08","12",20,"Action",12657,12657,1,2016-07-02
-"465","PS4","One Way Trip","Beret Applications LLC","Beret Applications LLC","41.42","12",NA,NA,NA,NA,NA,NA
-"466","PC","Bombshell","Interceptor Entertainment","3D Realms","39.61","19",NA,NA,NA,NA,NA,NA
-"467","PS4","Ace Banana","TVR","Oasis Games","38.54","13",NA,NA,NA,NA,NA,NA
-"468","PS4","Umbrella Corps","Capcom","Capcom","38.47","36",NA,NA,NA,NA,NA,NA
-"469","PC","Slain!","Wolf Brew Games","Digerati Distribution","38.46","13",NA,NA,NA,NA,NA,NA
-"470","XONE","7 Days to Die","The Fun Pimps Entertainment LLC","Telltale Games","37.79","14",28,"Action",8134,8134,1,2016-07-02
-"471","PC","Umbrella Corps","Capcom","Capcom","36.60","10",NA,NA,NA,NA,NA,NA
-"472","PS4","Coffin Dodgers","Milky Tea Studios","Wales Interactive Ltd.","35.00","10",NA,NA,NA,NA,NA,NA
-"473","PS4","Weeping Doll","TianShe Media","Oasis Games","33.44","16",NA,NA,NA,NA,NA,NA
-"474","PS4","Ghostbusters","FireForge Games","Activision","33.38","21",NA,NA,NA,NA,NA,NA
+"","Platform","Game","Developer","Publisher","Score","Number.of.Reviews","Pos","Genre","Weekly","Total","Week.Number","Week.Ending","Title","Complicated"
+"1","XONE","INSIDE","PLAYDEAD","PLAYDEAD","92.81","55",NA,"Unlisted",NA,NA,NA,NA,"INSIDE","Sales data unavailable for this title."
+"2","PS4","Uncharted 4 A Thief's End","Naughty Dog","SCEA","92.71","73",1,"Shooter",715173,715173,1,2016-05-14,"UNCHARTED 4 A THIEF'S END","Sales data below:"
+"3","XONE","Forza Horizon 3","Playground Games","Microsoft Game Studios","92.14","56",4,"Racing",138981,138981,1,2016-10-01,"FORZA HORIZON 3","Sales data below:"
+"4","PC","The Witcher 3 Wild Hunt - Blood and Wine","CD Projekt Red Studio","CD Projekt","91.58","20",NA,"Unlisted",NA,NA,NA,NA,"THE WITCHER 3 WILD HUNT - BLOOD AND WINE","Sales data unavailable for this title."
+"5","PC","Owlboy","D-Pad Studio","D-Pad Studio","91.38","21",NA,"Unlisted",NA,NA,NA,NA,"OWLBOY","Sales data unavailable for this title."
+"6","PC","Overwatch","Blizzard Entertainment","Blizzard Entertainment","91.26","38",3,"Shooter",103319,103319,1,2016-05-28,"OVERWATCH","Sales data below:"
+"7","PS4","Overwatch","Blizzard Entertainment","Blizzard Entertainment","90.68","22",1,"Shooter",219401,219401,1,2016-05-28,"OVERWATCH","Sales data below:"
+"8","PS4","INSIDE","PLAYDEAD","PLAYDEAD","90.67","12",NA,"Unlisted",NA,NA,NA,NA,"INSIDE","Sales data unavailable for this title."
+"9","XONE","Overwatch","Blizzard Entertainment","Blizzard Entertainment","90.58","12",2,"Shooter",154208,154208,1,2016-05-28,"OVERWATCH","Sales data below:"
+"10","XONE","Dark Souls III","From Software","Bandai Namco Games","90.40","10",3,"Role-Playing",105406,105406,1,2016-04-16,"DARK SOULS III","Sales data below:"
+"11","PS4","The Witcher 3 Wild Hunt - Blood and Wine","CD Projekt Red Studio","CD Projekt","90.00","20",NA,"Unlisted",NA,NA,NA,NA,"THE WITCHER 3 WILD HUNT - BLOOD AND WINE","Sales data unavailable for this title."
+"12","PC","Stardew Valley","ConcernedApe","Chucklefish","89.39","19",NA,"Unlisted",NA,NA,NA,NA,"STARDEW VALLEY","Sales data unavailable for this title."
+"13","PS4","Rez Infinite","Enhance Games","Enhance Games","89.14","21",NA,"Unlisted",NA,NA,NA,NA,"REZ INFINITE","Sales data unavailable for this title."
+"14","PC","Titanfall 2","Respawn Entertainment","Electronic Arts","89.08","13",41,"Shooter",0,0,1,2016-10-29,"TITANFALL 2","Sales data below:"
+"15","3DS","Fire Emblem Fates","Intelligent Systems","Nintendo","89.07","22",1,"Role-Playing",219736,219736,1,2016-02-20,"FIRE EMBLEM FATES","Sales data below:"
+"16","PS4","Titanfall 2","Respawn Entertainment","Electronic Arts","89.05","41",7,"Shooter",68811,68811,1,2016-10-29,"TITANFALL 2","Sales data below:"
+"17","XONE","DOOM","id Software","Bethesda Softworks","89.04","24",3,"Shooter",117242,117242,1,2016-05-14,"DOOM","Sales data below:"
+"18","PS4","Dark Souls III","From Software","Bandai Namco Games","88.93","49",1,"Role-Playing",303526,303526,1,2016-04-16,"DARK SOULS III","Sales data below:"
+"19","PS4","Rise of the Tomb Raider 20 Year Celebration","Crystal Dynamics","Square Enix","88.69","26",3,"Adventure",83104,83104,1,2016-10-15,"RISE OF THE TOMB RAIDER 20 YEAR CELEBRATION","Sales data below:"
+"20","XONE","Dishonored 2","Arkane Studios","Bethesda Softworks","88.57","14",6,"Action",65389,65389,1,2016-11-12,"DISHONORED 2","Sales data below:"
+"21","PC","Dark Souls III","From Software","Bandai Namco Games","88.51","34",NA,"Unlisted",NA,NA,NA,NA,"DARK SOULS III","Sales data unavailable for this title."
+"22","PC","Sid Meier's Civilization VI","Firaxis Games","2K Games","88.26","42",10,"Strategy",31013,31013,1,2016-10-22,"SID MEIER'S CIVILIZATION VI","Sales data below:"
+"23","XONE","Rocket League","Psyonix","Psyonix","88.11","14",11,"Sports",16092,16092,1,2016-07-09,"ROCKET LEAGUE","Sales data below:"
+"24","3DS","Pokemon Sun/Moon","Game Freak","Nintendo","88.09","45",1,"Role-Playing",1981206,1981206,1,2016-11-19,"POKEMON SUN/MOON","Sales data below:"
+"25","3DS","Pokemon Moon","Game Freak","Nintendo","87.85","46",NA,"Unlisted",NA,NA,NA,NA,"POKEMON MOON","Sales data unavailable for this title."
+"26","XONE","Ori and the Blind Forest Definitive Edition","Moon Studios","Microsoft Game Studios","87.85","13",NA,"Unlisted",NA,NA,NA,NA,"ORI AND THE BLIND FOREST DEFINITIVE EDITION","Sales data unavailable for this title."
+"27","PC","Battlefield 1","EA DICE","EA Games","87.74","23",21,"Shooter",19706,19706,1,2016-10-22,"BATTLEFIELD 1","Sales data below:"
+"28","PS4","Battlefield 1","EA DICE","EA Games","87.70","20",2,"Shooter",498228,498228,1,2016-10-22,"BATTLEFIELD 1","Sales data below:"
+"29","XONE","NBA 2K17","Visual Concepts","2K Games","87.50","10",2,"Sports",267687,267687,1,2016-09-17,"NBA 2K17","Sales data below:"
+"30","PC","World of Warcraft Legion","Blizzard Entertainment","Blizzard Entertainment","87.19","27",3,"Role-Playing",82322,82322,1,2016-09-03,"WORLD OF WARCRAFT LEGION","Sales data below:"
+"31","XONE","DiRT Rally","Codemasters","Codemasters","86.79","14",25,"Racing",10535,10535,1,2016-04-09,"DIRT RALLY","Sales data below:"
+"32","PS4","Odin Sphere Leifthrasir","Vanillaware","Atlus","86.78","36",4,"Role-Playing",41048,41048,1,2016-06-11,"ODIN SPHERE LEIFTHRASIR","Sales data below:"
+"33","3DS","Fire Emblem Fates Revelation","Intelligent Systems","Nintendo","86.73","11",NA,"Unlisted",NA,NA,NA,NA,"FIRE EMBLEM FATES REVELATION","Sales data unavailable for this title."
+"34","PS4","Dishonored 2","Arkane Studios","Bethesda Softworks","86.67","35",3,"Action",112243,112243,1,2016-11-12,"DISHONORED 2","Sales data below:"
+"35","PS4","Valkyria Chronicles Remastered","Sega","Sega","86.61","38",5,"Role-Playing",30367,30367,1,2016-05-21,"VALKYRIA CHRONICLES REMASTERED","Sales data below:"
+"36","PC","XCOM 2","Firaxis Games","2K Games","86.39","67",3,"Strategy",28795,28795,1,2016-02-06,"XCOM 2","Sales data below:"
+"37","XONE","Battlefield 1","EA DICE","EA Games","86.30","27",1,"Shooter",509105,509105,1,2016-10-22,"BATTLEFIELD 1","Sales data below:"
+"38","PC","Day of the Tentacle Remastered","Double Fine Productions","Double Fine Productions","86.27","15",NA,"Unlisted",NA,NA,NA,NA,"DAY OF THE TENTACLE REMASTERED","Sales data unavailable for this title."
+"39","PS4","Ratchet & Clank","Insomniac Games","SCEA","86.27","64",2,"Platform",148593,148593,1,2016-04-16,"RATCHET & CLANK","Sales data below:"
+"40","PS4","XCOM 2","Firaxis Games","2K Games","86.20","15",18,"Strategy",13017,13017,1,2016-10-01,"XCOM 2","Sales data below:"
+"41","PS4","MLB The Show 16","SCEA San Diego Studios","SCEA","86.19","32",1,"Action",206574,206574,1,2016-04-02,"MLB THE SHOW 16","Sales data below:"
+"42","3DS","Monster Hunter Generations","Capcom","Capcom","86.14","46",1,"Action",102288,102288,1,2016-07-16,"MONSTER HUNTER GENERATIONS","Sales data below:"
+"43","PS4","NBA 2K17","Visual Concepts","2K Games","86.10","21",1,"Sports",408517,408517,1,2016-09-17,"NBA 2K17","Sales data below:"
+"44","XONE","Titanfall 2","Respawn Entertainment","Electronic Arts","86.06","16",6,"Shooter",105576,105576,1,2016-10-29,"TITANFALL 2","Sales data below:"
+"45","PC","Pony Island","Daniel Mullins Games","Daniel Mullins Games","86.00","17",NA,"Unlisted",NA,NA,NA,NA,"PONY ISLAND","Sales data unavailable for this title."
+"46","WIIU","The Legend of Zelda Twilight Princess HD","Tantalus Interactive","Nintendo","85.98","47",1,"Action",225812,225812,1,2016-03-05,"THE LEGEND OF ZELDA TWILIGHT PRINCESS HD","Sales data below:"
+"47","PC","Rise of the Tomb Raider","Nixxes Software","Square Enix","85.86","21",NA,"Unlisted",NA,NA,NA,NA,"RISE OF THE TOMB RAIDER","Sales data unavailable for this title."
+"48","PS4","Resident Evil 4","Capcom","Capcom","85.85","13",7,"Shooter",15129,15129,1,2016-09-03,"RESIDENT EVIL 4","Sales data below:"
+"49","PC","Total War WARHAMMER","Creative Assembly","Sega","85.85","42",NA,"Unlisted",NA,NA,NA,NA,"TOTAL WAR WARHAMMER","Sales data unavailable for this title."
+"50","PS4","DOOM","id Software","Bethesda Softworks","85.82","42",2,"Shooter",155486,155486,1,2016-05-14,"DOOM","Sales data below:"
+"51","XONE","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","85.70","10",NA,"Unlisted",NA,NA,NA,NA,"DYING LIGHT THE FOLLOWING","Sales data unavailable for this title."
+"52","XONE","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","85.62","13",4,"Role-Playing",48223,48223,1,2016-08-27,"DEUS EX MANKIND DIVIDED","Sales data below:"
+"53","XONE","Gears of War 4","The Coalition","Microsoft Game Studios","85.59","58",1,"Shooter",346936,346936,1,2016-10-15,"GEARS OF WAR 4","Sales data below:"
+"54","PS4","Thumper","Drool","Drool","85.57","27",NA,"Unlisted",NA,NA,NA,NA,"THUMPER","Sales data unavailable for this title."
+"55","PC","ABZU","Giant Squid","505  Games","85.54","13",NA,"Unlisted",NA,NA,NA,NA,"ABZU","Sales data unavailable for this title."
+"56","3DS","Shin Megami Tensei IV Apocalypse","Atlus","Atlus","85.43","23",9,"Role-Playing",21459,21459,1,2016-09-24,"SHIN MEGAMI TENSEI IV APOCALYPSE","Sales data below:"
+"57","PS4","Assault Android Cactus","Witch Beam","Witch Beam","85.39","18",NA,"Unlisted",NA,NA,NA,NA,"ASSAULT ANDROID CACTUS","Sales data unavailable for this title."
+"58","PC","DOOM","id Software","Bethesda Softworks","85.38","21",NA,"Unlisted",NA,NA,NA,NA,"DOOM","Sales data unavailable for this title."
+"59","3DS","Fire Emblem Fates Conquest","Intelligent Systems","Nintendo","85.31","24",NA,"Unlisted",NA,NA,NA,NA,"FIRE EMBLEM FATES CONQUEST","Sales data unavailable for this title."
+"60","PS4","The Witness","Thekla, Inc","Thekla, Inc","85.31","53",NA,"Unlisted",NA,NA,NA,NA,"THE WITNESS","Sales data unavailable for this title."
+"61","PC","Planet Coaster","Frontier Developments","Frontier Developments","85.23","24",NA,"Unlisted",NA,NA,NA,NA,"PLANET COASTER","Sales data unavailable for this title."
+"62","PC","Hyper Light Drifter","Heart Machine","Heart Machine","85.12","21",NA,"Unlisted",NA,NA,NA,NA,"HYPER LIGHT DRIFTER","Sales data unavailable for this title."
+"63","XONE","BioShock The Collection","2K Games","2K Games","85.00","13",8,"Shooter",40007,40007,1,2016-09-17,"BIOSHOCK THE COLLECTION","Sales data below:"
+"64","PS4","Hitman","Io Interactive","Square Enix","84.95","21",NA,"Unlisted",NA,NA,NA,NA,"HITMAN","Sales data unavailable for this title."
+"65","XONE","XCOM 2","Firaxis Games","2K Games","84.90","10",24,"Strategy",8285,8285,1,2016-10-01,"XCOM 2","Sales data below:"
+"66","PS4","DiRT Rally","Codemasters","Codemasters","84.87","24",23,"Racing",10787,10787,1,2016-04-09,"DIRT RALLY","Sales data below:"
+"67","PS4","Pro Evolution Soccer 2017","Konami","Konami","84.85","31",39,"Sports",0,0,1,2016-09-17,"PRO EVOLUTION SOCCER 2017","Sales data below:"
+"68","PS4","Day of the Tentacle Remastered","Double Fine Productions","Double Fine Productions","84.83","15",NA,"Unlisted",NA,NA,NA,NA,"DAY OF THE TENTACLE REMASTERED","Sales data unavailable for this title."
+"69","PS4","Guilty Gear Xrd -REVELATOR-","Arc System Works","Aksys Games","84.59","22",16,"Fighting",10694,10694,1,2016-06-11,"GUILTY GEAR XRD -REVELATOR-","Sales data below:"
+"70","PS4","Call of Duty Modern Warfare Remastered","Infinity Ward","Activision","84.55","11",NA,"Unlisted",NA,NA,NA,NA,"CALL OF DUTY MODERN WARFARE REMASTERED","Sales data unavailable for this title."
+"71","PC","Devil Daggers","Sorath","Sorath","84.55","11",NA,"Unlisted",NA,NA,NA,NA,"DEVIL DAGGERS","Sales data unavailable for this title."
+"72","PS4","ZEN Pinball 2 Aliens Vs. Pinball","Zen Studios","Zen Studios","84.50","10",NA,"Unlisted",NA,NA,NA,NA,"ZEN PINBALL 2 ALIENS VS. PINBALL","Sales data unavailable for this title."
+"73","XONE","F1 2016","Codemasters","Codemasters","84.50","10",28,"Racing",5515,5515,1,2016-08-20,"F1 2016","Sales data below:"
+"74","PS4","Plants vs Zombies Garden Warfare 2","PopCap","PopCap","84.50","18",6,"Shooter",56696,56696,1,2016-02-27,"PLANTS VS ZOMBIES GARDEN WARFARE 2","Sales data below:"
+"75","XONE","The Elder Scrolls V Skyrim Special Edition","Bethesda Game Studios","Bethesda Softworks","84.40","15",NA,"Unlisted",NA,NA,NA,NA,"THE ELDER SCROLLS V SKYRIM SPECIAL EDITION","Sales data unavailable for this title."
+"76","PS4","Salt and Sanctuary","Ska Studios","Ska Studios","84.39","35",NA,"Unlisted",NA,NA,NA,NA,"SALT AND SANCTUARY","Sales data unavailable for this title."
+"77","PS4","Hitman - Episode 2 Sapienza","Io Interactive","Square Enix","84.38","26",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - EPISODE 2 SAPIENZA","Sales data unavailable for this title."
+"78","XONE","FRU","Through Games","Through Games","84.33","15",NA,"Unlisted",NA,NA,NA,NA,"FRU","Sales data unavailable for this title."
+"79","3DS","Fire Emblem Fates Birthright","Intelligent Systems","Nintendo","84.25","26",NA,"Unlisted",NA,NA,NA,NA,"FIRE EMBLEM FATES BIRTHRIGHT","Sales data unavailable for this title."
+"80","PS4","FIFA 17","EA Vancouver","EA Sports","84.20","28",1,"Sports",256664,256664,1,2016-10-01,"FIFA 17","Sales data below:"
+"81","PS4","BlazBlue Central Fiction","Arc System Works","Arc System Works","84.00","12",20,"Fighting",19646,19646,1,2016-11-05,"BLAZBLUE CENTRAL FICTION","Sales data below:"
+"82","PC","Quadrilateral Cowboy","Blendo Games","Blendo Games","84.00","22",NA,"Unlisted",NA,NA,NA,NA,"QUADRILATERAL COWBOY","Sales data unavailable for this title."
+"83","PS4","Dragon Quest Builders","Square Enix","Square Enix","83.98","43",21,"Role-Playing",18554,18554,1,2016-10-15,"DRAGON QUEST BUILDERS","Sales data below:"
+"84","PC","Dishonored 2","Arkane Studios","Bethesda Softworks","83.88","16",22,"Action",22975,22975,1,2016-11-12,"DISHONORED 2","Sales data below:"
+"85","PC","INSIDE","PLAYDEAD","PLAYDEAD","83.86","12",NA,"Unlisted",NA,NA,NA,NA,"INSIDE","Sales data unavailable for this title."
+"86","PS4","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","83.75","36",3,"Role-Playing",62740,62740,1,2016-08-27,"DEUS EX MANKIND DIVIDED","Sales data below:"
+"87","3DS","Kirby Planet Robobot","HAL Labs","Nintendo","83.62","42",1,"Action",62539,62539,1,2016-06-11,"KIRBY PLANET ROBOBOT","Sales data below:"
+"88","PS4","Watch Dogs 2","Ubisoft Montreal","Ubisoft","83.54","53",2,"Action",264296,264296,1,2016-11-19,"WATCH DOGS 2","Sales data below:"
+"89","PC","Enter the Gungeon","Dodge Roll","Devolver Digital","83.48","20",NA,"Unlisted",NA,NA,NA,NA,"ENTER THE GUNGEON","Sales data unavailable for this title."
+"90","3DS","Bravely Second End Layer","Silicon Studio","Square Enix","83.41","44",4,"Role-Playing",72617,72617,1,2016-04-16,"BRAVELY SECOND END LAYER","Sales data below:"
+"91","PC","The Banner Saga 2","Stoic","Versus Evil","83.39","36",NA,"Unlisted",NA,NA,NA,NA,"THE BANNER SAGA 2","Sales data unavailable for this title."
+"92","PS4","BioShock The Collection","2K Games","2K Games","83.35","20",7,"Shooter",54259,54259,1,2016-09-17,"BIOSHOCK THE COLLECTION","Sales data below:"
+"93","PS4","The Last Guardian","SCE Japan Studio","Sony Interactive Entertainment","83.35","46",NA,"Unlisted",NA,NA,NA,NA,"THE LAST GUARDIAN","Sales data unavailable for this title."
+"94","XONE","SUPERHOT","SUPERHOT","SUPERHOT","83.33","15",NA,"Unlisted",NA,NA,NA,NA,"SUPERHOT","Sales data unavailable for this title."
+"95","PS4","Invisible, Inc. Console Edition","Klei Entertainment","Klei Entertainment","83.23","13",NA,"Unlisted",NA,NA,NA,NA,"INVISIBLE, INC. CONSOLE EDITION","Sales data unavailable for this title."
+"96","PS4","Hitman - Episode 6 Hokkaido","Io Interactive","Square Enix","82.91","11",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - EPISODE 6 HOKKAIDO","Sales data unavailable for this title."
+"97","3DS","Rhythm Heaven Megamix","Nintendo","Nintendo","82.83","18",NA,"Unlisted",NA,NA,NA,NA,"RHYTHM HEAVEN MEGAMIX","Sales data unavailable for this title."
+"98","PS4","Final Fantasy XV","Square Enix","Square Enix","82.83","47",NA,"Unlisted",NA,NA,NA,NA,"FINAL FANTASY XV","Sales data unavailable for this title."
+"99","PC","Hearts of Iron IV","Paradox Development Studio","Paradox Interactive","82.75","12",NA,"Unlisted",NA,NA,NA,NA,"HEARTS OF IRON IV","Sales data unavailable for this title."
+"100","3DS","Pocket Card Jockey","Game Freak","Game Freak","82.69","13",NA,"Unlisted",NA,NA,NA,NA,"POCKET CARD JOCKEY","Sales data unavailable for this title."
+"101","VITA","Severed","DrinkBox Studios","DrinkBox Studios","82.67","48",NA,"Unlisted",NA,NA,NA,NA,"SEVERED","Sales data unavailable for this title."
+"102","WIIU","Tokyo Mirage Sessions #FE","Atlus","Nintendo","82.59","38",1,"Role-Playing",52410,52410,1,2016-06-25,"TOKYO MIRAGE SESSIONS #FE","Sales data below:"
+"103","PC","Firewatch","Campo Santo","Panic Inc.","82.54","37",NA,"Unlisted",NA,NA,NA,NA,"FIREWATCH","Sales data unavailable for this title."
+"104","VITA","Zero Escape Zero Time Dilemma","Chime","Aksys Games","82.50","28",11,"Adventure",18587,18587,1,2016-07-02,"ZERO ESCAPE ZERO TIME DILEMMA","Sales data below:"
+"105","VITA","The Legend of Heroes Trails of Cold Steel II","Falcom","Falcom","82.44","16",13,"Role-Playing",10714,10714,1,2016-09-10,"THE LEGEND OF HEROES TRAILS OF COLD STEEL II","Sales data below:"
+"106","3DS","Dragon Quest VII Fragments of the Forgotten Past","ArtePiazza","Square Enix","82.43","30",10,"Role-Playing",31945,31945,1,2016-09-17,"DRAGON QUEST VII FRAGMENTS OF THE FORGOTTEN PAST","Sales data below:"
+"107","XONE","Madden NFL 17","EA Sports","EA Sports","82.43","20",2,"Sports",304092,304092,1,2016-08-27,"MADDEN NFL 17","Sales data below:"
+"108","PS4","Enter the Gungeon","Dodge Roll","Devolver Digital","82.39","23",NA,"Unlisted",NA,NA,NA,NA,"ENTER THE GUNGEON","Sales data unavailable for this title."
+"109","PS4","Madden NFL 17","EA Sports","EA Sports","82.31","27",1,"Sports",421692,421692,1,2016-08-27,"MADDEN NFL 17","Sales data below:"
+"110","PC","1979 Revolution Black Friday","iNK Stories","iNK Stories","82.29","14",NA,"Unlisted",NA,NA,NA,NA,"1979 REVOLUTION BLACK FRIDAY","Sales data unavailable for this title."
+"111","XONE","Letter Quest Grimm's Journey Remastered","Bacon Bandit Games","Digerati Distribution","82.20","10",NA,"Unlisted",NA,NA,NA,NA,"LETTER QUEST GRIMM'S JOURNEY REMASTERED","Sales data unavailable for this title."
+"112","PS4","Pac-Man 256","HIPSTER WHALE","Bandai Namco Games","82.12","16",NA,"Unlisted",NA,NA,NA,NA,"PAC-MAN 256","Sales data unavailable for this title."
+"113","PS4","Steins;Gate 0","5pb","5pb","82.00","10",NA,"Unlisted",NA,NA,NA,NA,"STEINS;GATE 0","Sales data unavailable for this title."
+"114","XONE","10 Second Ninja X","GameDesignDan","Curve Digital","82.00","10",NA,"Unlisted",NA,NA,NA,NA,"10 SECOND NINJA X","Sales data unavailable for this title."
+"115","PC","Deus Ex Mankind Divided","Eidos Montreal","Square Enix","81.96","35",NA,"Unlisted",NA,NA,NA,NA,"DEUS EX MANKIND DIVIDED","Sales data unavailable for this title."
+"116","PC","Oxenfree","Night School Studio","Night School Studio","81.96","27",NA,"Unlisted",NA,NA,NA,NA,"OXENFREE","Sales data unavailable for this title."
+"117","PS4","F1 2016","Codemasters","Codemasters","81.93","27",21,"Racing",6302,6302,1,2016-08-20,"F1 2016","Sales data below:"
+"118","PS4","Skylanders Imaginators","Toys for Bob","Activision","81.88","33",24,"Platform",14522,14522,1,2016-10-22,"SKYLANDERS IMAGINATORS","Sales data below:"
+"119","PC","Dragon's Dogma Dark Arisen","Capcom","Capcom","81.76","34",NA,"Unlisted",NA,NA,NA,NA,"DRAGON'S DOGMA DARK ARISEN","Sales data unavailable for this title."
+"120","XONE","FIFA 17","EA Vancouver","EA Sports","81.62","16",2,"Sports",157445,157445,1,2016-10-01,"FIFA 17","Sales data below:"
+"121","XONE","Hue","Fiddlesticks Games","Curve Digital","81.55","11",NA,"Unlisted",NA,NA,NA,NA,"HUE","Sales data unavailable for this title."
+"122","3DS","Phoenix Wright Ace Attorney - Spirit of Justice","Capcom","Capcom","81.41","39",NA,"Unlisted",NA,NA,NA,NA,"PHOENIX WRIGHT ACE ATTORNEY - SPIRIT OF JUSTICE","Sales data unavailable for this title."
+"123","PC","Duelyst","Counterplay Games","Counterplay Games","81.36","11",NA,"Unlisted",NA,NA,NA,NA,"DUELYST","Sales data unavailable for this title."
+"124","IOS","Deus Ex GO","Square Enix Montreal","Square Enix","81.32","20",NA,"Unlisted",NA,NA,NA,NA,"DEUS EX GO","Sales data unavailable for this title."
+"125","XONE","Fallout 4 Far Harbor","Bethesda Game Studios","Bethesda Softworks","81.25","12",NA,"Unlisted",NA,NA,NA,NA,"FALLOUT 4 FAR HARBOR","Sales data unavailable for this title."
+"126","PC","Zombie Night Terror","NoClip","Gambitious","81.22","18",NA,"Unlisted",NA,NA,NA,NA,"ZOMBIE NIGHT TERROR","Sales data unavailable for this title."
+"127","XONE","Tom Clancy's The Division","Massive Entertainment","Ubisoft","81.21","24",2,"Shooter",476413,476413,1,2016-03-12,"TOM CLANCY'S THE DIVISION","Sales data below:"
+"128","XONE","The Turing Test","Bulkhead Interactive","Square Enix","81.15","13",NA,"Unlisted",NA,NA,NA,NA,"THE TURING TEST","Sales data unavailable for this title."
+"129","PS4","Prison Architect","Double Eleven","Double Eleven","81.06","16",65,"Action",0,0,1,2016-07-02,"PRISON ARCHITECT","Sales data below:"
+"130","3DS","BoxBoxBoy!","HAL Labs","Nintendo","81.06","17",NA,"Unlisted",NA,NA,NA,NA,"BOXBOXBOY!","Sales data unavailable for this title."
+"131","PC","Tyranny","Obsidian Entertainment","Paradox Interactive","81.00","29",NA,"Unlisted",NA,NA,NA,NA,"TYRANNY","Sales data unavailable for this title."
+"132","PC","Football Manager 2017","Sports Interactive","Sega","80.94","17",NA,"Unlisted",NA,NA,NA,NA,"FOOTBALL MANAGER 2017","Sales data unavailable for this title."
+"133","PS4","NHL 17","EA Vancouver","Electronic Arts","80.90","20",4,"Sports",69860,69860,1,2016-09-17,"NHL 17","Sales data below:"
+"134","3DS","Corpse Party","5pb","Mages.","80.77","13",NA,"Unlisted",NA,NA,NA,NA,"CORPSE PARTY","Sales data unavailable for this title."
+"135","PS4","Gravity Rush Remastered","Bluepoint Games","SCEI","80.51","35",NA,"Unlisted",NA,NA,NA,NA,"GRAVITY RUSH REMASTERED","Sales data unavailable for this title."
+"136","XONE","Plants vs Zombies Garden Warfare 2","PopCap","Electronic Arts","80.50","44",4,"Shooter",77943,77943,1,2016-02-27,"PLANTS VS ZOMBIES GARDEN WARFARE 2","Sales data below:"
+"137","PS4","The Elder Scrolls V Skyrim Special Edition","Bethesda Game Studios","Bethesda Softworks","80.47","19",NA,"Unlisted",NA,NA,NA,NA,"THE ELDER SCROLLS V SKYRIM SPECIAL EDITION","Sales data unavailable for this title."
+"138","PS4","Trackmania Turbo","Nadeo","Ubisoft","80.46","26",NA,"Unlisted",NA,NA,NA,NA,"TRACKMANIA TURBO","Sales data unavailable for this title."
+"139","PC","That Dragon, Cancer","Numinous Games","Numinous Games","80.42","26",NA,"Unlisted",NA,NA,NA,NA,"THAT DRAGON, CANCER","Sales data unavailable for this title."
+"140","PS4","Call of Duty Black Ops III - Awakening","Treyarch","Activision","80.36","14",NA,"Unlisted",NA,NA,NA,NA,"CALL OF DUTY BLACK OPS III - AWAKENING","Sales data unavailable for this title."
+"141","PS4","Hatsune Miku Project Diva X","Sega","Sega","80.35","20",14,"Misc",11449,11449,1,2016-09-03,"HATSUNE MIKU PROJECT DIVA X","Sales data below:"
+"142","PC","Offworld Trading Company","Mohawk Games","Stardock","80.18","17",NA,"Unlisted",NA,NA,NA,NA,"OFFWORLD TRADING COMPANY","Sales data unavailable for this title."
+"143","PS4","RIGS Mechanized Combat League","Guerilla Cambridge","Sony Interactive Entertainment","80.09","27",31,"Action",0,0,1,2016-10-15,"RIGS MECHANIZED COMBAT LEAGUE","Sales data below:"
+"144","PS4","Tom Clancy's The Division","Massive Entertainment","Ubisoft","80.04","39",1,"Shooter",566255,566255,1,2016-03-12,"TOM CLANCY'S THE DIVISION","Sales data below:"
+"145","PS4","The Banner Saga","Stoic","Versus Evil","80.00","17",NA,"Unlisted",NA,NA,NA,NA,"THE BANNER SAGA","Sales data unavailable for this title."
+"146","PS4","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","79.94","18",NA,"Unlisted",NA,NA,NA,NA,"DYING LIGHT THE FOLLOWING","Sales data unavailable for this title."
+"147","PS4","Score Rush Extended","Xona Games","Xona Games","79.90","10",NA,"Unlisted",NA,NA,NA,NA,"SCORE RUSH EXTENDED","Sales data unavailable for this title."
+"148","XONE","Darksiders Warmastered Edition","Nordic Games Publishing","Nordic Games Publishing","79.73","11",NA,"Unlisted",NA,NA,NA,NA,"DARKSIDERS WARMASTERED EDITION","Sales data unavailable for this title."
+"149","PS4","World of Final Fantasy","Square Enix","Square Enix","79.72","48",10,"Role-Playing",44551,44551,1,2016-10-29,"WORLD OF FINAL FANTASY","Sales data below:"
+"150","PC","Crashlands","Butterscotch Shenanigans","Butterscotch Shenanigans","79.70","10",NA,"Unlisted",NA,NA,NA,NA,"CRASHLANDS","Sales data unavailable for this title."
+"151","PS4","Unravel","Coldwood Interactive","Electronic Arts","79.68","45",NA,"Unlisted",NA,NA,NA,NA,"UNRAVEL","Sales data unavailable for this title."
+"152","XONE","Overcooked","Ghost Town Games Ltd.","Team 17","79.59","11",NA,"Unlisted",NA,NA,NA,NA,"OVERCOOKED","Sales data unavailable for this title."
+"153","3DS","7th Dragon III Code VFD","Sega","Sega","79.56","18",8,"Role-Playing",18234,18234,1,2016-07-16,"7TH DRAGON III CODE VFD","Sales data below:"
+"154","PS4","ABZU","Giant Squid","505 Games","79.53","49",NA,"Unlisted",NA,NA,NA,NA,"ABZU","Sales data unavailable for this title."
+"155","PC","Worms W.M.D","Team 17","Team 17","79.50","12",NA,"Unlisted",NA,NA,NA,NA,"WORMS W.M.D","Sales data unavailable for this title."
+"156","PC","The Metronomicon","Puuba","Kasedo Games","79.50","10",NA,"Unlisted",NA,NA,NA,NA,"THE METRONOMICON","Sales data unavailable for this title."
+"157","XONE","Far Cry Primal","Ubisoft Montreal","Ubisoft","79.45","19",2,"Action",189697,189697,1,2016-02-27,"FAR CRY PRIMAL","Sales data below:"
+"158","PC","Homeworld Deserts of Kharak","Blackbird Interactive","Gearbox Software","79.39","33",NA,"Unlisted",NA,NA,NA,NA,"HOMEWORLD DESERTS OF KHARAK","Sales data unavailable for this title."
+"159","PS4","Alienation","Housemarque","SCEA","79.33","35",NA,"Unlisted",NA,NA,NA,NA,"ALIENATION","Sales data unavailable for this title."
+"160","PS4","EA Sports UFC 2","EA Sports","EA Sports","79.30","20",4,"Sports",120675,120675,1,2016-03-19,"EA SPORTS UFC 2","Sales data below:"
+"161","PC","Battlefleet Gothic Armada","Tindalos Interactive","Focus Home Interactive","79.29","17",NA,"Unlisted",NA,NA,NA,NA,"BATTLEFLEET GOTHIC ARMADA","Sales data unavailable for this title."
+"162","3DS","Mega Man Legacy Collection","Digital Eclipse","Capcom","79.25","18",5,"Platform",59209,59209,1,2016-02-27,"MEGA MAN LEGACY COLLECTION","Sales data below:"
+"163","PC","DeathSmiles","Cave","Degica","79.25","10",NA,"Unlisted",NA,NA,NA,NA,"DEATHSMILES","Sales data unavailable for this title."
+"164","PC","Dying Light The Following","Techland","Warner Bros. Interactive Entertainment","79.19","16",NA,"Unlisted",NA,NA,NA,NA,"DYING LIGHT THE FOLLOWING","Sales data unavailable for this title."
+"165","XONE","Oxenfree","Night School Studio","Night School Studio","79.18","22",NA,"Unlisted",NA,NA,NA,NA,"OXENFREE","Sales data unavailable for this title."
+"166","PS4","Oxenfree","Night School Studio","Night School Studio","79.18","11",NA,"Unlisted",NA,NA,NA,NA,"OXENFREE","Sales data unavailable for this title."
+"167","PS4","Naruto Shippuden Ultimate Ninja Storm 4","CyberConnect2","Bandai Namco Games","79.16","32",1,"Fighting",112846,112846,1,2016-02-13,"NARUTO SHIPPUDEN ULTIMATE NINJA STORM 4","Sales data below:"
+"168","PS4","Darkest Dungeon","Red Hook Studios","Red Hook Studios","79.09","11",NA,"Unlisted",NA,NA,NA,NA,"DARKEST DUNGEON","Sales data unavailable for this title."
+"169","PC","Shadow Warrior 2","Flying Wild Hog","Devolver Digital","78.98","32",NA,"Unlisted",NA,NA,NA,NA,"SHADOW WARRIOR 2","Sales data unavailable for this title."
+"170","PS4","Headlander","Double Fine Productions","Adult Swim","78.97","29",NA,"Unlisted",NA,NA,NA,NA,"HEADLANDER","Sales data unavailable for this title."
+"171","XONE","NHL 17","EA Vancouver","EA Games","78.87","16",6,"Sports",67400,67400,1,2016-09-17,"NHL 17","Sales data below:"
+"172","PS4","Overcooked","Ghost Town Games Ltd.","Team 17","78.81","21",NA,"Unlisted",NA,NA,NA,NA,"OVERCOOKED","Sales data unavailable for this title."
+"173","PS4","The King of Fighters XIV","SNK Playmore","SNK Playmore","78.80","37",6,"Fighting",26739,26739,1,2016-08-27,"THE KING OF FIGHTERS XIV","Sales data below:"
+"174","PC","Kathy Rain","Clifftop Games","Raw Fury","78.71","17",NA,"Unlisted",NA,NA,NA,NA,"KATHY RAIN","Sales data unavailable for this title."
+"175","PS4","Amnesia Collection","Frictional Games","Frictional Games","78.64","11",NA,"Unlisted",NA,NA,NA,NA,"AMNESIA COLLECTION","Sales data unavailable for this title."
+"176","PS4","Call of Duty Infinite Warfare","Infinity Ward","Activision","78.53","53",1,"Shooter",830989,830989,1,2016-11-05,"CALL OF DUTY INFINITE WARFARE","Sales data below:"
+"177","PC","Tom Clancy's The Division","Massive Entertainment","Ubisoft","78.43","14",3,"Shooter",87149,87149,1,2016-03-12,"TOM CLANCY'S THE DIVISION","Sales data below:"
+"178","PS4","Hitman - Intro Pack","Io Interactive","Square Enix","78.35","44",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - INTRO PACK","Sales data unavailable for this title."
+"179","PS4","Killing Floor 2","Tripwire Interactive","Tripwire Interactive","78.23","24",40,"Shooter",0,0,1,2016-11-19,"KILLING FLOOR 2","Sales data below:"
+"180","XONE","This War of Mine The Little Ones","11 bit studios","Deep Silver","78.20","15",NA,"Unlisted",NA,NA,NA,NA,"THIS WAR OF MINE THE LITTLE ONES","Sales data unavailable for this title."
+"181","XONE","Call of Duty Infinite Warfare","Infinity Ward","Activision","78.20","10",2,"Shooter",781551,781551,1,2016-11-05,"CALL OF DUTY INFINITE WARFARE","Sales data below:"
+"182","PS4","Downwell","Moppin","Devolver Digital","78.18","11",NA,"Unlisted",NA,NA,NA,NA,"DOWNWELL","Sales data unavailable for this title."
+"183","PS4","LEGO Star Wars The Force Awakens","TT Games","Warner Bros. Interactive Entertainment","78.01","35",NA,"Unlisted",NA,NA,NA,NA,"LEGO STAR WARS THE FORCE AWAKENS","Sales data unavailable for this title."
+"184","PS4","Worms W.M.D","Team 17","Team 17","77.94","18",53,"Action",0,0,1,2016-08-27,"WORMS W.M.D","Sales data below:"
+"185","XONE","Quantum Break","Remedy Entertainment","Microsoft Game Studios","77.91","67",1,"Action",102482,102482,1,2016-04-09,"QUANTUM BREAK","Sales data below:"
+"186","PS4","Hitman GO Definitive Edition","Square Enix Montreal","Square Enix","77.90","21",NA,"Unlisted",NA,NA,NA,NA,"HITMAN GO DEFINITIVE EDITION","Sales data unavailable for this title."
+"187","PS4","Hue","Fiddlesticks Games","Curve Digital","77.88","26",NA,"Unlisted",NA,NA,NA,NA,"HUE","Sales data unavailable for this title."
+"188","PC","Xanadu Next","Falcom","Falcom","77.85","13",NA,"Unlisted",NA,NA,NA,NA,"XANADU NEXT","Sales data unavailable for this title."
+"189","PS4","Pac-Man Championship Edition 2","Bandai Namco Games","Bandai Namco Games","77.80","15",NA,"Unlisted",NA,NA,NA,NA,"PAC-MAN CHAMPIONSHIP EDITION 2","Sales data unavailable for this title."
+"190","PC","VA-11 Hall-A Cyberpunk Bartender Action","Sukeban Games","Ysbryd Games","77.54","13",NA,"Unlisted",NA,NA,NA,NA,"VA-11 HALL-A CYBERPUNK BARTENDER ACTION","Sales data unavailable for this title."
+"191","PS4","Grand Kingdom","Spike Chunsoft","Spike Chunsoft","77.48","21",25,"Role-Playing",10086,10086,1,2016-07-02,"GRAND KINGDOM","Sales data below:"
+"192","PC","Obduction","Cyan Worlds","Cyan Worlds","77.47","16",NA,"Unlisted",NA,NA,NA,NA,"OBDUCTION","Sales data unavailable for this title."
+"193","VITA","Shiren the Wanderer The Tower of Fortune and the Dice of Fate","Spike Chunsoft","Spike Chunsoft","77.42","24",NA,"Unlisted",NA,NA,NA,NA,"SHIREN THE WANDERER THE TOWER OF FORTUNE AND THE DICE OF FATE","Sales data unavailable for this title."
+"194","PS4","Street Fighter V","Capcom","Capcom","77.40","59",2,"Fighting",213549,213549,1,2016-02-20,"STREET FIGHTER V","Sales data below:"
+"195","PC","Samorost 3","Amanita Design","Amanita Design","77.31","16",NA,"Unlisted",NA,NA,NA,NA,"SAMOROST 3","Sales data unavailable for this title."
+"196","PS4","Klaus","La Cosa Entertainment","La Cosa Entertainment","77.31","21",NA,"Unlisted",NA,NA,NA,NA,"KLAUS","Sales data unavailable for this title."
+"197","PC","Stellaris","Paradox Development Studio","Paradox Interactive","77.30","28",NA,"Unlisted",NA,NA,NA,NA,"STELLARIS","Sales data unavailable for this title."
+"198","XONE","Virginia","505 Games","505 Games","77.27","11",NA,"Unlisted",NA,NA,NA,NA,"VIRGINIA","Sales data unavailable for this title."
+"199","XONE","Fallout 4 Automatron","Bethesda Game Studios","Bethesda Softworks","77.18","11",NA,"Unlisted",NA,NA,NA,NA,"FALLOUT 4 AUTOMATRON","Sales data unavailable for this title."
+"200","PS4","Shu","Coatsink Software","Coatsink Software","77.17","12",NA,"Unlisted",NA,NA,NA,NA,"SHU","Sales data unavailable for this title."
+"201","PS4","Headmaster","Frame Interactive","Sony Interactive Entertainment","77.07","15",NA,"Unlisted",NA,NA,NA,NA,"HEADMASTER","Sales data unavailable for this title."
+"202","3DS","Azure Striker Gunvolt 2","Inti Creates","Inti Creates","77.00","10",NA,"Unlisted",NA,NA,NA,NA,"AZURE STRIKER GUNVOLT 2","Sales data unavailable for this title."
+"203","PC","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","76.95","30",NA,"Unlisted",NA,NA,NA,NA,"BATMAN THE TELLTALE SERIES - EPISODE 1: REALM OF SHADOWS","Sales data unavailable for this title."
+"204","WIIU","Pokken Tournament","Bandai Namco Games","Nintendo","76.91","47",2,"Fighting",160410,160410,1,2016-03-19,"POKKEN TOURNAMENT","Sales data below:"
+"205","VITA","Superdimension Neptune VS Sega Hard Girls","Compile Heart","Compile Heart","76.91","11",NA,"Unlisted",NA,NA,NA,NA,"SUPERDIMENSION NEPTUNE VS SEGA HARD GIRLS","Sales data unavailable for this title."
+"206","PS4","Layers of Fear","Bloober Team","Aspyr","76.89","28",NA,"Unlisted",NA,NA,NA,NA,"LAYERS OF FEAR","Sales data unavailable for this title."
+"207","PS4","Far Cry Primal","Ubisoft Montreal","Ubisoft","76.77","57",1,"Action",250483,250483,1,2016-02-27,"FAR CRY PRIMAL","Sales data below:"
+"208","PS4","Furi","The Game Bakers","The Game Bakers","76.72","25",NA,"Unlisted",NA,NA,NA,NA,"FURI","Sales data unavailable for this title."
+"209","PS4","Batman Arkham VR","Rocksteady Studios","Warner Bros. Interactive Entertainment","76.61","36",15,"Action",23827,23827,1,2016-10-15,"BATMAN ARKHAM VR","Sales data below:"
+"210","XONE","LEGO Star Wars The Force Awakens","TT Games","Warner Bros. Interactive Entertainment","76.50","10",NA,"Unlisted",NA,NA,NA,NA,"LEGO STAR WARS THE FORCE AWAKENS","Sales data unavailable for this title."
+"211","PC","American Truck Simulator","SCS Software","Excalibur Publishing","76.37","16",NA,"Unlisted",NA,NA,NA,NA,"AMERICAN TRUCK SIMULATOR","Sales data unavailable for this title."
+"212","3DS","Mario & Luigi Paper Jam","Alphadream Corporation","Nintendo","76.37","52",2,"Role-Playing",56988,56988,1,2016-01-23,"MARIO & LUIGI PAPER JAM","Sales data below:"
+"213","VITA","Yomawari Night Alone","Nippon Ichi Software","Nippon Ichi Software","76.33","12",NA,"Unlisted",NA,NA,NA,NA,"YOMAWARI NIGHT ALONE","Sales data unavailable for this title."
+"214","PS4","10 Second Ninja X","GameDesignDan","Curve Digital","76.31","16",NA,"Unlisted",NA,NA,NA,NA,"10 SECOND NINJA X","Sales data unavailable for this title."
+"215","PC","Virginia","Variable State","505 Games","76.28","18",NA,"Unlisted",NA,NA,NA,NA,"VIRGINIA","Sales data unavailable for this title."
+"216","PS4","I Am Setsuna","Tokyo RPG Factory","Square Enix","76.17","52",NA,"Unlisted",NA,NA,NA,NA,"I AM SETSUNA","Sales data unavailable for this title."
+"217","PC","Event[0]","Ocelot Society","Ocelot Society","76.16","25",NA,"Unlisted",NA,NA,NA,NA,"EVENT[0]","Sales data unavailable for this title."
+"218","XONE","Unravel","Coldwood Interactive","Electronic Arts","76.16","19",NA,"Unlisted",NA,NA,NA,NA,"UNRAVEL","Sales data unavailable for this title."
+"219","PS4","Atelier Sophie The Alchemist of the Mysterious Book","Gust","Koei Tecmo Games","76.15","23",29,"Role-Playing",7411,7411,1,2016-06-11,"ATELIER SOPHIE THE ALCHEMIST OF THE MYSTERIOUS BOOK","Sales data below:"
+"220","PS4","Digimon Story Cyber Sleuth","Media Vision","Bandai Namco Games","76.15","33",NA,"Unlisted",NA,NA,NA,NA,"DIGIMON STORY CYBER SLEUTH","Sales data unavailable for this title."
+"221","PC","Street Fighter V","Capcom","Capcom","76.13","16",NA,"Unlisted",NA,NA,NA,NA,"STREET FIGHTER V","Sales data unavailable for this title."
+"222","PS4","Firewatch","Campo Santo","Panic Inc.","76.10","34",NA,"Unlisted",NA,NA,NA,NA,"FIREWATCH","Sales data unavailable for this title."
+"223","PS4","The Deadly Tower of Monsters","ACE Team","Atlus","75.87","16",NA,"Unlisted",NA,NA,NA,NA,"THE DEADLY TOWER OF MONSTERS","Sales data unavailable for this title."
+"224","PC","Seasons After Fall","Swing Swing Submarine","Focus Home Interactive","75.83","12",NA,"Unlisted",NA,NA,NA,NA,"SEASONS AFTER FALL","Sales data unavailable for this title."
+"225","WIIU","Paper Mario Color Splash","Intelligent Systems","Nintendo","75.82","44",7,"Role-Playing",49910,49910,1,2016-10-08,"PAPER MARIO COLOR SPLASH","Sales data below:"
+"226","XONE","The Flame in the Flood","The Molasses Flood","The Molasses Flood","75.81","21",NA,"Unlisted",NA,NA,NA,NA,"THE FLAME IN THE FLOOD","Sales data unavailable for this title."
+"227","PC","Cities Skylines Snowfall","Colossal Order","Paradox Interactive","75.80","10",NA,"Unlisted",NA,NA,NA,NA,"CITIES SKYLINES SNOWFALL","Sales data unavailable for this title."
+"228","VITA","Atelier Escha & Logy Plus Alchemists of the Dusk Sky","Gust","Koei Tecmo Games","75.77","22",NA,"Unlisted",NA,NA,NA,NA,"ATELIER ESCHA & LOGY PLUS ALCHEMISTS OF THE DUSK SKY","Sales data unavailable for this title."
+"229","PC","The Final Station","Do My Best Games","tinyBuild","75.75","16",NA,"Unlisted",NA,NA,NA,NA,"THE FINAL STATION","Sales data unavailable for this title."
+"230","PS4","Stories The Path of Destinies","Spearhead Games","Spearhead Games","75.71","33",NA,"Unlisted",NA,NA,NA,NA,"STORIES THE PATH OF DESTINIES","Sales data unavailable for this title."
+"231","PS4","Lumo","Triple Eh? Ltd","Rising Star Games","75.45","20",NA,"Unlisted",NA,NA,NA,NA,"LUMO","Sales data unavailable for this title."
+"232","PS4","Not a Hero","roll7","Devolver Digital","75.43","21",NA,"Unlisted",NA,NA,NA,NA,"NOT A HERO","Sales data unavailable for this title."
+"233","PS4","SuperHyperCube","KOKOROMI","Polytron Corp.","75.36","14",NA,"Unlisted",NA,NA,NA,NA,"SUPERHYPERCUBE","Sales data unavailable for this title."
+"234","PS4","This War of Mine The Little Ones","11 bit studios","Deep Silver","75.26","19",NA,"Unlisted",NA,NA,NA,NA,"THIS WAR OF MINE THE LITTLE ONES","Sales data unavailable for this title."
+"235","PC","Shardlight","Wadjet Eye Games","Wadjet Eye Games","75.25","12",NA,"Unlisted",NA,NA,NA,NA,"SHARDLIGHT","Sales data unavailable for this title."
+"236","PS4","Duke Nukem 3D 20th Anniversary World Tour","Gearbox Software","Gearbox Software","75.25","16",53,"Shooter",0,0,1,2016-10-22,"DUKE NUKEM 3D 20TH ANNIVERSARY WORLD TOUR","Sales data below:"
+"237","PC","Pac-Man Championship Edition 2","Bandai Namco Games","Bandai Namco Games","75.19","13",NA,"Unlisted",NA,NA,NA,NA,"PAC-MAN CHAMPIONSHIP EDITION 2","Sales data unavailable for this title."
+"238","PC","The Turing Test","Bulkhead Interactive","Square Enix","75.15","13",NA,"Unlisted",NA,NA,NA,NA,"THE TURING TEST","Sales data unavailable for this title."
+"239","XONE","The Banner Saga","Stoic","Versus Evil","75.10","10",NA,"Unlisted",NA,NA,NA,NA,"THE BANNER SAGA","Sales data unavailable for this title."
+"240","PC","Batman The Telltale Series - Episode 2: Children of Arkham","Telltale Games","Telltale Games","75.00","16",NA,"Unlisted",NA,NA,NA,NA,"BATMAN THE TELLTALE SERIES - EPISODE 2: CHILDREN OF ARKHAM","Sales data unavailable for this title."
+"241","PS4","Virginia","505 Games","505 Games","74.92","18",NA,"Unlisted",NA,NA,NA,NA,"VIRGINIA","Sales data unavailable for this title."
+"242","PS4","Attack on Titan","Omega Force","Koei Tecmo Games","74.90","42",9,"Action",14000,14000,1,2016-09-03,"ATTACK ON TITAN","Sales data below:"
+"243","PC","Master of Orion","NGD Studios","WG Labs","74.84","16",NA,"Unlisted",NA,NA,NA,NA,"MASTER OF ORION","Sales data unavailable for this title."
+"244","XONE","Action Henk","RageSquid","RageSquid","74.83","12",NA,"Unlisted",NA,NA,NA,NA,"ACTION HENK","Sales data unavailable for this title."
+"245","PS4","Eagle Flight","FunHouse","Ubisoft","74.77","13",NA,"Unlisted",NA,NA,NA,NA,"EAGLE FLIGHT","Sales data unavailable for this title."
+"246","PC","Headlander","Double Fine Productions","Adult Swim","74.75","16",NA,"Unlisted",NA,NA,NA,NA,"HEADLANDER","Sales data unavailable for this title."
+"247","PS4","Valley","Blue Isle Studios","Blue Isle Studios","74.71","14",NA,"Unlisted",NA,NA,NA,NA,"VALLEY","Sales data unavailable for this title."
+"248","3DS","Sega 3D Classics Collection","M2","Sega","74.69","16",NA,"Unlisted",NA,NA,NA,NA,"SEGA 3D CLASSICS COLLECTION","Sales data unavailable for this title."
+"249","XONE","Worms W.M.D","Team 17","Team 17","74.67","15",73,"Action",0,0,1,2016-08-27,"WORMS W.M.D","Sales data below:"
+"250","PC","God Eater 2 Rage Burst","Shift","Bandai Namco Games","74.67","12",NA,"Unlisted",NA,NA,NA,NA,"GOD EATER 2 RAGE BURST","Sales data unavailable for this title."
+"251","PS4","Heavy Rain","Virtuos","SCEE","74.53","17",NA,"Unlisted",NA,NA,NA,NA,"HEAVY RAIN","Sales data unavailable for this title."
+"252","PS4","Push Me Pull You","House House","House House","74.50","10",NA,"Unlisted",NA,NA,NA,NA,"PUSH ME PULL YOU","Sales data unavailable for this title."
+"253","XONE","EA Sports UFC 2","EA Sports","EA Sports","74.45","28",5,"Sports",105458,105458,1,2016-03-19,"EA SPORTS UFC 2","Sales data below:"
+"254","PC","The Flame in the Flood","The Molasses Flood","The Molasses Flood","74.35","26",NA,"Unlisted",NA,NA,NA,NA,"THE FLAME IN THE FLOOD","Sales data unavailable for this title."
+"255","PS4","EVE Valkyrie","CCP","CCP","74.33","12",34,"Shooter",0,0,1,2016-10-15,"EVE VALKYRIE","Sales data below:"
+"256","XONE","Dead Rising 4","Capcom","Microsoft Game Studios","74.28","40",NA,"Unlisted",NA,NA,NA,NA,"DEAD RISING 4","Sales data unavailable for this title."
+"257","PS4","Stikbold! A Dodgeball Adventure","Reign Bros","Reign Bros","74.25","16",NA,"Unlisted",NA,NA,NA,NA,"STIKBOLD! A DODGEBALL ADVENTURE","Sales data unavailable for this title."
+"258","PS4","The Magic Circle Gold Edition","Question","Question","74.23","13",NA,"Unlisted",NA,NA,NA,NA,"THE MAGIC CIRCLE GOLD EDITION","Sales data unavailable for this title."
+"259","PS4","Job Simulator","Owlchemy Labs","Owlchemy Labs","74.20","10",NA,"Unlisted",NA,NA,NA,NA,"JOB SIMULATOR","Sales data unavailable for this title."
+"260","WIIU","Star Fox Guard","PlatinumGames","Nintendo","74.19","21",NA,"Unlisted",NA,NA,NA,NA,"STAR FOX GUARD","Sales data unavailable for this title."
+"261","XONE","Shadow Complex Remastered","Chair Entertainment","Epic Games","74.09","11",NA,"Unlisted",NA,NA,NA,NA,"SHADOW COMPLEX REMASTERED","Sales data unavailable for this title."
+"262","GBA","Kuru Kuru Kururin","Eighting","Nintendo","74.00","11",NA,"Unlisted",NA,NA,NA,NA,"KURU KURU KURURIN","Sales data unavailable for this title."
+"263","PS4","Hitman - Episode 3 Marrakesh","Io Interactive","Square Enix","73.88","17",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - EPISODE 3 MARRAKESH","Sales data unavailable for this title."
+"264","PC","TASTEE Lethal Tactics","SkyBox Labs","SkyBox Labs","73.80","10",NA,"Unlisted",NA,NA,NA,NA,"TASTEE LETHAL TACTICS","Sales data unavailable for this title."
+"265","PS4","Amplitude","Harmonix Music Systems","Harmonix Music Systems","73.79","45",NA,"Unlisted",NA,NA,NA,NA,"AMPLITUDE","Sales data unavailable for this title."
+"266","PS4","Strike Vector EX","Ragequit Corporation","Ragequit Corporation","73.69","13",NA,"Unlisted",NA,NA,NA,NA,"STRIKE VECTOR EX","Sales data unavailable for this title."
+"267","PC","Batman The Telltale Series - Episode 3: New World Order","Telltale Games","Telltale Games","73.58","12",NA,"Unlisted",NA,NA,NA,NA,"BATMAN THE TELLTALE SERIES - EPISODE 3: NEW WORLD ORDER","Sales data unavailable for this title."
+"268","XONE","Stranger of Sword City","Experience Inc.","Experience Inc.","73.50","10",NA,"Unlisted",NA,NA,NA,NA,"STRANGER OF SWORD CITY","Sales data unavailable for this title."
+"269","PS4","Until Dawn Rush of Blood","SuperMassive Games","Sony Interactive Entertainment","73.31","29",23,"Adventure",13620,13620,1,2016-10-15,"UNTIL DAWN RUSH OF BLOOD","Sales data below:"
+"270","VITA","Stranger of Sword City","Experience Inc.","Experience Inc.","73.30","20",NA,"Unlisted",NA,NA,NA,NA,"STRANGER OF SWORD CITY","Sales data unavailable for this title."
+"271","PC","Black Desert Online","Pearl Abyss","GameOn","73.30","10",NA,"Unlisted",NA,NA,NA,NA,"BLACK DESERT ONLINE","Sales data unavailable for this title."
+"272","3DS","Return to PoPoLoCrois A Story of Seasons Fairytale","Marvelous Inc.","Marvelous Inc.","73.29","28",NA,"Unlisted",NA,NA,NA,NA,"RETURN TO POPOLOCROIS A STORY OF SEASONS FAIRYTALE","Sales data unavailable for this title."
+"273","PC","Dark Souls III Ashes of Ariandel","From Software","Bandai Namco Games","73.00","17",NA,"Unlisted",NA,NA,NA,NA,"DARK SOULS III ASHES OF ARIANDEL","Sales data unavailable for this title."
+"274","XONE","Jotun Valhalla Edition","Thunder Lotus Games","Thunder Lotus Games","73.00","10",NA,"Unlisted",NA,NA,NA,NA,"JOTUN VALHALLA EDITION","Sales data unavailable for this title."
+"275","PC","The Deadly Tower of Monsters","ACE Team","Atlus","73.00","11",NA,"Unlisted",NA,NA,NA,NA,"THE DEADLY TOWER OF MONSTERS","Sales data unavailable for this title."
+"276","XONE","Rise of the Tomb Raider Baba Yaga - The Temple of the Witch","Crystal Dynamics","Square Enix","72.92","12",NA,"Unlisted",NA,NA,NA,NA,"RISE OF THE TOMB RAIDER BABA YAGA - THE TEMPLE OF THE WITCH","Sales data unavailable for this title."
+"277","PS4","Republique","Camouflaj, LLC","GungHo","72.89","27",NA,"Unlisted",NA,NA,NA,NA,"REPUBLIQUE","Sales data unavailable for this title."
+"278","VITA","Ray Gigant","Bandai Namco Games","Bandai Namco Games","72.87","15",NA,"Unlisted",NA,NA,NA,NA,"RAY GIGANT","Sales data unavailable for this title."
+"279","PS4","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","72.87","15",NA,"Unlisted",NA,NA,NA,NA,"BATMAN THE TELLTALE SERIES - EPISODE 1: REALM OF SHADOWS","Sales data unavailable for this title."
+"280","PS4","Batman Return to Arkham","Rocksteady Studios","Warner Bros. Interactive Entertainment","72.80","15",6,"Action",35710,35710,1,2016-10-22,"BATMAN RETURN TO ARKHAM","Sales data below:"
+"281","XONE","Prison Architect","Double Eleven","Double Eleven","72.45","11",NA,"Unlisted",NA,NA,NA,NA,"PRISON ARCHITECT","Sales data unavailable for this title."
+"282","PS4","Wayward Sky","Uber Entertainment","Uber Entertainment","72.36","11",NA,"Unlisted",NA,NA,NA,NA,"WAYWARD SKY","Sales data unavailable for this title."
+"283","PS4","Tricky Towers","WeirdBeard","WeirdBeard","72.33","12",NA,"Unlisted",NA,NA,NA,NA,"TRICKY TOWERS","Sales data unavailable for this title."
+"284","3DS","Project X Zone 2","Monolith Soft","Bandai Namco Games","72.30","38",NA,"Unlisted",NA,NA,NA,NA,"PROJECT X ZONE 2","Sales data unavailable for this title."
+"285","XONE","Batman The Telltale Series - Episode 1: Realm of Shadows","Telltale Games","Telltale Games","72.27","11",NA,"Unlisted",NA,NA,NA,NA,"BATMAN THE TELLTALE SERIES - EPISODE 1: REALM OF SHADOWS","Sales data unavailable for this title."
+"286","PS4","Destiny Rise of Iron","Bungie","Activision","72.20","44",NA,"Unlisted",NA,NA,NA,NA,"DESTINY RISE OF IRON","Sales data unavailable for this title."
+"287","PS4","Alone With You","Benjamin Rivers","Benjamin Rivers","72.20","15",NA,"Unlisted",NA,NA,NA,NA,"ALONE WITH YOU","Sales data unavailable for this title."
+"288","3DS","Hyrule Warriors Legends","Omega Force","Nintendo","72.18","33",3,"Action",85494,85494,1,2016-03-26,"HYRULE WARRIORS LEGENDS","Sales data below:"
+"289","PS4","Neverending Nightmares","Infinitap Games","Infinitap Games","72.00","10",NA,"Unlisted",NA,NA,NA,NA,"NEVERENDING NIGHTMARES","Sales data unavailable for this title."
+"290","PS4","Dragon Ball Xenoverse 2","Dimps Corporation","Bandai Namco Games","72.00","25",5,"Action",136003,136003,1,2016-10-29,"DRAGON BALL XENOVERSE 2","Sales data below:"
+"291","XONE","Resident Evil 0 HD Remaster","Capcom","Capcom","71.96","24",NA,"Unlisted",NA,NA,NA,NA,"RESIDENT EVIL 0 HD REMASTER","Sales data unavailable for this title."
+"292","PS4","Psycho-Pass Mandatory Happiness","5pb","NIS America","71.87","15",17,"Adventure",14301,14301,1,2016-09-17,"PSYCHO-PASS MANDATORY HAPPINESS","Sales data below:"
+"293","XONE","Battleborn","Gearbox Software","2K Games","71.75","16",2,"Shooter",44074,44074,1,2016-05-07,"BATTLEBORN","Sales data below:"
+"294","PC","The Walking Dead Michonne - Episode 3: What We Deserve","Telltale Games","Telltale Games","71.74","19",NA,"Unlisted",NA,NA,NA,NA,"THE WALKING DEAD MICHONNE - EPISODE 3: WHAT WE DESERVE","Sales data unavailable for this title."
+"295","PC","I Am Setsuna","Tokyo RPG Factory","Square Enix","71.68","11",NA,"Unlisted",NA,NA,NA,NA,"I AM SETSUNA","Sales data unavailable for this title."
+"296","PC","The Collider 2","Shortbreak Studios","Shortbreak Studios","71.67","12",NA,"Unlisted",NA,NA,NA,NA,"THE COLLIDER 2","Sales data unavailable for this title."
+"297","3DS","Super Mario Maker for Nintendo 3DS","Nintendo","Nintendo","71.54","25",NA,"Unlisted",NA,NA,NA,NA,"SUPER MARIO MAKER FOR NINTENDO 3DS","Sales data unavailable for this title."
+"298","PS4","LEGO Marvel's Avengers","TT Games","Warner Bros. Interactive Entertainment","71.54","42",2,"Action",49303,49303,1,2016-01-30,"LEGO MARVEL'S AVENGERS","Sales data below:"
+"299","PS4","Bound","Plastic Studios","Sony Interactive Entertainment","71.34","37",NA,"Unlisted",NA,NA,NA,NA,"BOUND","Sales data unavailable for this title."
+"300","PS4","Megadimension Neptunia VII","Compile Heart","Compile Heart","71.25","20",NA,"Unlisted",NA,NA,NA,NA,"MEGADIMENSION NEPTUNIA VII","Sales data unavailable for this title."
+"301","PS4","No Man's Sky","Hello Games","Hello Games","71.23","61",1,"Action",411484,411484,1,2016-08-13,"NO MAN'S SKY","Sales data below:"
+"302","PS4","Aragami","Lince Works","Lince Works","71.14","21",NA,"Unlisted",NA,NA,NA,NA,"ARAGAMI","Sales data unavailable for this title."
+"303","PS4","Steep","Ubisoft Annecy","Ubisoft","71.11","18",NA,"Unlisted",NA,NA,NA,NA,"STEEP","Sales data unavailable for this title."
+"304","PS4","Sebastien Loeb Rally Evo","Milestone S.r.l","Milestone S.r.l","71.08","13",NA,"Unlisted",NA,NA,NA,NA,"SEBASTIEN LOEB RALLY EVO","Sales data unavailable for this title."
+"305","XONE","Oceanhorn Monster of Uncharted Seas","Cornfox & Bros.","Cornfox & Bros.","71.00","10",NA,"Unlisted",NA,NA,NA,NA,"OCEANHORN MONSTER OF UNCHARTED SEAS","Sales data unavailable for this title."
+"306","PS4","Rainbow Moon","SideQuest Studios","SideQuest Studios","71.00","10",NA,"Unlisted",NA,NA,NA,NA,"RAINBOW MOON","Sales data unavailable for this title."
+"307","PC","Punch Club","Lazy Bear Games","tinyBuild","71.00","15",NA,"Unlisted",NA,NA,NA,NA,"PUNCH CLUB","Sales data unavailable for this title."
+"308","PS4","Arslan The Warriors of Legend","Omega Force","Koei Tecmo Games","70.90","31",34,"Action",0,0,1,2016-02-13,"ARSLAN THE WARRIORS OF LEGEND","Sales data below:"
+"309","PC","Senran Kagura Shinovi Versus","Tamsoft","XSEED Games","70.90","10",NA,"Unlisted",NA,NA,NA,NA,"SENRAN KAGURA SHINOVI VERSUS","Sales data unavailable for this title."
+"310","XONE","Mirror's Edge Catalyst","EA DICE","Electronic Arts","70.87","38",6,"Platform",30238,30238,1,2016-06-11,"MIRROR'S EDGE CATALYST","Sales data below:"
+"311","PS4","Hitman - Episode 4 Bangkok","Io Interactive","Square Enix","70.86","14",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - EPISODE 4 BANGKOK","Sales data unavailable for this title."
+"312","PC","Corpse Party","Mages.","Grindhouse","70.80","10",NA,"Unlisted",NA,NA,NA,NA,"CORPSE PARTY","Sales data unavailable for this title."
+"313","PS4","WWE 2K17","Yuke's","2K Sports","70.77","28",2,"Sports",90572,90572,1,2016-10-15,"WWE 2K17","Sales data below:"
+"314","XONE","LEGO Marvel's Avengers","TT Games","Warner Bros. Interactive Entertainment","70.68","11",5,"Action",31504,31504,1,2016-01-30,"LEGO MARVEL'S AVENGERS","Sales data below:"
+"315","PS4","Fallout 4 Automatron","Bethesda Game Studios","Bethesda Softworks","70.67","15",NA,"Unlisted",NA,NA,NA,NA,"FALLOUT 4 AUTOMATRON","Sales data unavailable for this title."
+"316","PS4","RIVE","Two Tribes","Two Tribes","70.67","12",NA,"Unlisted",NA,NA,NA,NA,"RIVE","Sales data unavailable for this title."
+"317","PS4","God Eater Resurrection","Shift","Bandai Namco Games","70.56","18",NA,"Unlisted",NA,NA,NA,NA,"GOD EATER RESURRECTION","Sales data unavailable for this title."
+"318","PC","Gears of War Ultimate Edition for Windows 10","The Coalition","Microsoft Game Studios","70.50","12",NA,"Unlisted",NA,NA,NA,NA,"GEARS OF WAR ULTIMATE EDITION FOR WINDOWS 10","Sales data unavailable for this title."
+"319","PS4","Song of the Deep","Insomniac Games","GameTrust","70.50","30",9,"Action",16855,16855,1,2016-07-16,"SONG OF THE DEEP","Sales data below:"
+"320","PS4","Brut@l","Stormcloud Games Limited","Stormcloud Games Limited","70.50","20",NA,"Unlisted",NA,NA,NA,NA,"BRUT@L","Sales data unavailable for this title."
+"321","PS4","Jotun Valhalla Edition","Thunder Lotus Games","Thunder Lotus Games","70.50","10",NA,"Unlisted",NA,NA,NA,NA,"JOTUN VALHALLA EDITION","Sales data unavailable for this title."
+"322","PS4","Sheltered","Unicube","Team 17","70.50","12",NA,"Unlisted",NA,NA,NA,NA,"SHELTERED","Sales data unavailable for this title."
+"323","XONE","Dear Esther","The Chinese Room","Curve Digital","70.42","12",NA,"Unlisted",NA,NA,NA,NA,"DEAR ESTHER","Sales data unavailable for this title."
+"324","3DS","River City Tokyo Rumble","Million","Arc System Works","70.42","12",NA,"Unlisted",NA,NA,NA,NA,"RIVER CITY TOKYO RUMBLE","Sales data unavailable for this title."
+"325","3DS","Yo-Kai Watch 2 Bony Spirits","Level 5","Level 5","70.41","17",NA,"Unlisted",NA,NA,NA,NA,"YO-KAI WATCH 2 BONY SPIRITS","Sales data unavailable for this title."
+"326","XONE","Fortified","Clapfoot Inc.","Clapfoot Inc.","70.32","25",NA,"Unlisted",NA,NA,NA,NA,"FORTIFIED","Sales data unavailable for this title."
+"327","PS4","Hitman - Episode 5 Colorado","Io Interactive","Square Enix","70.23","13",NA,"Unlisted",NA,NA,NA,NA,"HITMAN - EPISODE 5 COLORADO","Sales data unavailable for this title."
+"328","PS4","Samurai Warriors 4 Empires","Omega Force","Koei Tecmo Games","70.21","24",54,"Action",0,0,1,2016-03-19,"SAMURAI WARRIORS 4 EMPIRES","Sales data below:"
+"329","PS4","Resident Evil 0 HD Remaster","Capcom","Capcom","70.20","25",NA,"Unlisted",NA,NA,NA,NA,"RESIDENT EVIL 0 HD REMASTER","Sales data unavailable for this title."
+"330","PC","The Walking Dead Michonne - Episode 1: In Too Deep","Skybound LLC","Telltale Games","70.18","30",NA,"Unlisted",NA,NA,NA,NA,"THE WALKING DEAD MICHONNE - EPISODE 1: IN TOO DEEP","Sales data unavailable for this title."
+"331","PS4","God Eater 2 Rage Burst","Shift","Bandai Namco Games","70.10","20",NA,"Unlisted",NA,NA,NA,NA,"GOD EATER 2 RAGE BURST","Sales data unavailable for this title."
+"332","PS4","Dead Star","Armature Studio","Armature Studio","70.07","14",NA,"Unlisted",NA,NA,NA,NA,"DEAD STAR","Sales data unavailable for this title."
+"333","PS4","Fallout 4 Far Harbor","Bethesda Game Studios","Bethesda Softworks","70.00","12",NA,"Unlisted",NA,NA,NA,NA,"FALLOUT 4 FAR HARBOR","Sales data unavailable for this title."
+"334","PS4","Fairy Fencer F Advent Dark Force","Compile Heart","Compile Heart","70.00","17",17,"Role-Playing",9719,9719,1,2016-07-30,"FAIRY FENCER F ADVENT DARK FORCE","Sales data below:"
+"335","PS4","Exist Archive The Other Side of the Sky","Tri-Ace","Spike Chunsoft","70.00","12",NA,"Unlisted",NA,NA,NA,NA,"EXIST ARCHIVE THE OTHER SIDE OF THE SKY","Sales data unavailable for this title."
+"336","PS4","Dark Souls III Ashes of Ariandel","From Software","Bandai Namco Games","70.00","12",NA,"Unlisted",NA,NA,NA,NA,"DARK SOULS III ASHES OF ARIANDEL","Sales data unavailable for this title."
+"337","PS4","Mirror's Edge Catalyst","EA DICE","Electronic Arts","69.92","26",2,"Platform",46024,46024,1,2016-06-11,"MIRROR'S EDGE CATALYST","Sales data below:"
+"338","PC","Battleborn","Gearbox Software","2K Games","69.64","14",7,"Shooter",21509,21509,1,2016-05-07,"BATTLEBORN","Sales data below:"
+"339","PS4","Nitroplus Blasterz Heroines Infinite Duel","Examu","Marvelous Inc.","69.53","30",NA,"Unlisted",NA,NA,NA,NA,"NITROPLUS BLASTERZ HEROINES INFINITE DUEL","Sales data unavailable for this title."
+"340","PS4","Tumble VR","SuperMassive Games","Sony Interactive Entertainment","69.50","14",NA,"Unlisted",NA,NA,NA,NA,"TUMBLE VR","Sales data unavailable for this title."
+"341","PS4","Amazing Discoveries In Outer Space","Cosmic Picnic","Cosmic Picnic","69.50","10",NA,"Unlisted",NA,NA,NA,NA,"AMAZING DISCOVERIES IN OUTER SPACE","Sales data unavailable for this title."
+"342","XONE","In Between","Gentlymad","Headup Games","69.40","10",NA,"Unlisted",NA,NA,NA,NA,"IN BETWEEN","Sales data unavailable for this title."
+"343","PS4","Battleborn","Gearbox Software","2K Games","69.21","36",1,"Shooter",54715,54715,1,2016-05-07,"BATTLEBORN","Sales data below:"
+"344","PC","Demetrios - The BIG Cynical Adventure","COWCAT","COWCAT","69.10","10",NA,"Unlisted",NA,NA,NA,NA,"DEMETRIOS - THE BIG CYNICAL ADVENTURE","Sales data unavailable for this title."
+"345","PS4","Tharsis","Choice Provisions","Choice Provisions","69.00","15",NA,"Unlisted",NA,NA,NA,NA,"THARSIS","Sales data unavailable for this title."
+"346","3DS","Final Fantasy Explorers","Racjin","Square Enix","68.99","34",1,"Role-Playing",66748,66748,1,2016-01-30,"FINAL FANTASY EXPLORERS","Sales data below:"
+"347","PS4","Sherlock Holmes The Devil's Daughter","Frogwares","Bigben Interactive","68.82","17",NA,"Unlisted",NA,NA,NA,NA,"SHERLOCK HOLMES THE DEVIL'S DAUGHTER","Sales data unavailable for this title."
+"348","WIIU","Star Fox Zero","PlatinumGames","Nintendo","68.78","58",1,"Shooter",94565,94565,1,2016-04-23,"STAR FOX ZERO","Sales data below:"
+"349","PS4","The Bunker","Splendy Games","Wales Interactive Ltd.","68.64","11",NA,"Unlisted",NA,NA,NA,NA,"THE BUNKER","Sales data unavailable for this title."
+"350","PC","Human Fall Flat","No Brakes Games","Curve Digital","68.39","18",NA,"Unlisted",NA,NA,NA,NA,"HUMAN FALL FLAT","Sales data unavailable for this title."
+"351","PS4","Dear Esther Landmark Edition","The Chinese Room","Curve Digital","68.25","20",NA,"Unlisted",NA,NA,NA,NA,"DEAR ESTHER LANDMARK EDITION","Sales data unavailable for this title."
+"352","PS4","Rocketbirds 2 Evolution","Ratloop Asia Pte Ltd","Ratloop Asia Pte Ltd","68.23","13",NA,"Unlisted",NA,NA,NA,NA,"ROCKETBIRDS 2 EVOLUTION","Sales data unavailable for this title."
+"353","PS4","Nights of Azure","Gust","Koei Tecmo Games","68.21","28",23,"Action",13836,13836,1,2016-04-02,"NIGHTS OF AZURE","Sales data below:"
+"354","PC","The Detail","Rival Games Ltd","Rival Games Ltd","68.19","16",NA,"Unlisted",NA,NA,NA,NA,"THE DETAIL","Sales data unavailable for this title."
+"355","XONE","TurnOn","Brainy Studio LLC","Brainy Studio LLC","68.17","12",NA,"Unlisted",NA,NA,NA,NA,"TURNON","Sales data unavailable for this title."
+"356","PS4","Assassin's Creed The Ezio Collection","Ubisoft Montreal","Ubisoft","68.00","11",26,"Action",24225,24225,1,2016-11-19,"ASSASSIN'S CREED THE EZIO COLLECTION","Sales data below:"
+"357","3DS","Dragon Ball Fusions","Ganbarion","Nintendo","67.75","10",NA,"Unlisted",NA,NA,NA,NA,"DRAGON BALL FUSIONS","Sales data unavailable for this title."
+"358","IOS","Pokemon GO","Niantic Labs","Nintendo","67.63","19",NA,"Unlisted",NA,NA,NA,NA,"POKEMON GO","Sales data unavailable for this title."
+"359","PS4","Battlezone","Rebellion","Rebellion","67.59","27",47,"Action",0,0,1,2016-10-15,"BATTLEZONE","Sales data below:"
+"360","PS4","Mafia III","Hangar 13","2K Games","67.57","35",1,"Action",188653,188653,1,2016-10-08,"MAFIA III","Sales data below:"
+"361","PS4","Gal*Gun Double Peace","Inti Creates","PQube","67.31","16",NA,"Unlisted",NA,NA,NA,NA,"GAL*GUN DOUBLE PEACE","Sales data unavailable for this title."
+"362","PS4","Among the Sleep","Krillbite Studio","Krillbite Studio","67.27","11",NA,"Unlisted",NA,NA,NA,NA,"AMONG THE SLEEP","Sales data unavailable for this title."
+"363","PS4","Senran Kagura Estival Versus","Marvelous Inc.","Marvelous Inc.","67.25","20",7,"Action",35979,35979,1,2016-03-19,"SENRAN KAGURA ESTIVAL VERSUS","Sales data below:"
+"364","PS4","Grow Up","Ubisoft Reflections","Ubisoft","67.12","17",NA,"Unlisted",NA,NA,NA,NA,"GROW UP","Sales data unavailable for this title."
+"365","PC","ADR1FT","Three One Zero","505 Games","67.09","22",NA,"Unlisted",NA,NA,NA,NA,"ADR1FT","Sales data unavailable for this title."
+"366","3DS","Yo-Kai Watch 2 Fleshy Souls","Level 5","Level 5","67.00","15",NA,"Unlisted",NA,NA,NA,NA,"YO-KAI WATCH 2 FLESHY SOULS","Sales data unavailable for this title."
+"367","PS4","Lichtspeer","Lichthund","Crunching Koalas","66.82","11",NA,"Unlisted",NA,NA,NA,NA,"LICHTSPEER","Sales data unavailable for this title."
+"368","PS4","Deadlight Director's Cut","Tequila Works","Deep Silver","66.72","18",NA,"Unlisted",NA,NA,NA,NA,"DEADLIGHT DIRECTOR'S CUT","Sales data unavailable for this title."
+"369","XONE","Monochroma","Nowhere Studios","Nowhere Studios","66.60","10",NA,"Unlisted",NA,NA,NA,NA,"MONOCHROMA","Sales data unavailable for this title."
+"370","PC","The Walking Dead Michonne - Episode 2: Give No Shelter","Telltale Games","Telltale Games","66.60","20",NA,"Unlisted",NA,NA,NA,NA,"THE WALKING DEAD MICHONNE - EPISODE 2: GIVE NO SHELTER","Sales data unavailable for this title."
+"371","PS4","Sword Art Online Hollow Realization","Bandai Namco Games","Bandai Namco Games","66.56","16",19,"Role-Playing",27357,27357,1,2016-11-12,"SWORD ART ONLINE HOLLOW REALIZATION","Sales data below:"
+"372","PS4","Dungeons 2","Kalypso","Kalypso","66.50","10",NA,"Unlisted",NA,NA,NA,NA,"DUNGEONS 2","Sales data unavailable for this title."
+"373","VITA","Trillion God of Destruction","Compile Heart","Compile Heart","66.47","19",26,"Role-Playing",13027,13027,1,2016-04-02,"TRILLION GOD OF DESTRUCTION","Sales data below:"
+"374","PS4","Romance of the Three Kingdoms XIII","Koei Tecmo Games","Koei Tecmo Games","66.47","17",44,"Action",0,0,1,2016-07-09,"ROMANCE OF THE THREE KINGDOMS XIII","Sales data below:"
+"375","VITA","Criminal Girls 2 Party Favors","Nippon Ichi Software","Nippon Ichi Software","66.42","12",NA,"Unlisted",NA,NA,NA,NA,"CRIMINAL GIRLS 2 PARTY FAVORS","Sales data unavailable for this title."
+"376","PC","Blade & Soul","NCSOFT","NCSOFT","66.33","12",NA,"Unlisted",NA,NA,NA,NA,"BLADE & SOUL","Sales data unavailable for this title."
+"377","XONE","The Technomancer","Spiders","Focus Home Interactive","66.30","10",59,"Role-Playing",0,0,1,2016-07-02,"THE TECHNOMANCER","Sales data below:"
+"378","PS4","Driveclub VR","Evolution Studios","Sony Interactive Entertainment","66.22","18",NA,"Unlisted",NA,NA,NA,NA,"DRIVECLUB VR","Sales data unavailable for this title."
+"379","VITA","Adventures of Mana","Square Enix","Square Enix","66.18","11",NA,"Unlisted",NA,NA,NA,NA,"ADVENTURES OF MANA","Sales data unavailable for this title."
+"380","PS4","Full Mojo Rampage","Over the Top Games","Nicalis","66.15","13",NA,"Unlisted",NA,NA,NA,NA,"FULL MOJO RAMPAGE","Sales data unavailable for this title."
+"381","PS4","Shadow of the Beast","Heavy Spectrum","SCEA","65.36","33",NA,"Unlisted",NA,NA,NA,NA,"SHADOW OF THE BEAST","Sales data unavailable for this title."
+"382","PS4","Here They Lie","The Tangentlemen","Sony Interactive Entertainment","65.29","17",NA,"Unlisted",NA,NA,NA,NA,"HERE THEY LIE","Sales data unavailable for this title."
+"383","PC","Mother Russia Bleeds","Le Cartel Studio","Devolver Digital","65.14","22",NA,"Unlisted",NA,NA,NA,NA,"MOTHER RUSSIA BLEEDS","Sales data unavailable for this title."
+"384","PS4","Neon Chrome","10tons","10tons","65.00","11",NA,"Unlisted",NA,NA,NA,NA,"NEON CHROME","Sales data unavailable for this title."
+"385","PC","The Westport Independent","Double Zero One Zero","Coffee Stain Studios","65.00","10",NA,"Unlisted",NA,NA,NA,NA,"THE WESTPORT INDEPENDENT","Sales data unavailable for this title."
+"386","PS4","SportsBarVR","Cherry Pop Games","Cherry Pop Games","65.00","10",NA,"Unlisted",NA,NA,NA,NA,"SPORTSBARVR","Sales data unavailable for this title."
+"387","XONE","Hard Reset Redux","Flying Wild Hog","Gambitious","64.86","14",NA,"Unlisted",NA,NA,NA,NA,"HARD RESET REDUX","Sales data unavailable for this title."
+"388","XONE","Mafia III","Hangar 13","2K Games","64.85","10",2,"Action",117614,117614,1,2016-10-08,"MAFIA III","Sales data below:"
+"389","3DS","Mario Party Star Rush","Nd Cube","Nintendo","64.69","18",19,"Misc",20720,20720,1,2016-11-05,"MARIO PARTY STAR RUSH","Sales data below:"
+"390","PS4","One Piece Burning Blood","Spike Chunsoft","Bandai Namco Games","64.64","25",2,"Fighting",69150,69150,1,2016-06-04,"ONE PIECE BURNING BLOOD","Sales data below:"
+"391","WIIU","Mario & Sonic at the Rio 2016 Olympic Games","Sega Sports R&D","Nintendo","64.64","11",15,"Action",11443,11443,1,2016-06-25,"MARIO & SONIC AT THE RIO 2016 OLYMPIC GAMES","Sales data below:"
+"392","PS4","Assetto Corsa","Kunos Simulazioni","505 Games","64.62","16",NA,"Unlisted",NA,NA,NA,NA,"ASSETTO CORSA","Sales data unavailable for this title."
+"393","PS4","BROFORCE","Free Lives","Devolver Digital","64.60","10",NA,"Unlisted",NA,NA,NA,NA,"BROFORCE","Sales data unavailable for this title."
+"394","3DS","Metroid Prime Federation Force","Next Level Games","Nintendo","64.50","34",10,"Action",9745,9745,1,2016-08-20,"METROID PRIME FEDERATION FORCE","Sales data below:"
+"395","XONE","ReCore","comcept","Microsoft Game Studios","63.99","48",9,"Action",32162,32162,1,2016-09-17,"RECORE","Sales data below:"
+"396","PC","The Town Of Light","LKA","LKA","63.75","12",NA,"Unlisted",NA,NA,NA,NA,"THE TOWN OF LIGHT","Sales data unavailable for this title."
+"397","PC","Little King's Story","Cing","XSEED Games","63.71","14",NA,"Unlisted",NA,NA,NA,NA,"LITTLE KING'S STORY","Sales data unavailable for this title."
+"398","PS4","Robinson The Journey","Crytek","Crytek","63.63","19",12,"Action",34261,34261,1,2016-11-12,"ROBINSON THE JOURNEY","Sales data below:"
+"399","VITA","MegaTagmension Blanc + Neptune VS Zombies","Compile Heart","Idea Factory","63.35","17",11,"Action",12367,12367,1,2016-05-14,"MEGATAGMENSION BLANC + NEPTUNE VS ZOMBIES","Sales data below:"
+"400","PC","We Are The Dwarves","Whale Rock Games","Whale Rock Games","63.33","12",NA,"Unlisted",NA,NA,NA,NA,"WE ARE THE DWARVES","Sales data unavailable for this title."
+"401","PS4","Exile's End","MagneticRealms","XSEED Games","63.27","15",NA,"Unlisted",NA,NA,NA,NA,"EXILE'S END","Sales data unavailable for this title."
+"402","PC","Resident Evil 0 HD Remaster","Capcom","Capcom","63.21","14",NA,"Unlisted",NA,NA,NA,NA,"RESIDENT EVIL 0 HD REMASTER","Sales data unavailable for this title."
+"403","PS4","JoJo's Bizarre Adventure Eyes of Heaven","CyberConnect2","Bandai Namco Games","63.14","22",NA,"Unlisted",NA,NA,NA,NA,"JOJO'S BIZARRE ADVENTURE EYES OF HEAVEN","Sales data unavailable for this title."
+"404","PS4","Assassin's Creed Chronicles India","Climax Studios","Ubisoft","62.85","26",NA,"Unlisted",NA,NA,NA,NA,"ASSASSIN'S CREED CHRONICLES INDIA","Sales data unavailable for this title."
+"405","PS4","Oceanhorn Monster of Uncharted Seas","Cornfox & Bros.","Cornfox & Bros.","62.80","10",NA,"Unlisted",NA,NA,NA,NA,"OCEANHORN MONSTER OF UNCHARTED SEAS","Sales data unavailable for this title."
+"406","XONE","Assassin's Creed Chronicles India","Climax Studios","Ubisoft","62.76","17",NA,"Unlisted",NA,NA,NA,NA,"ASSASSIN'S CREED CHRONICLES INDIA","Sales data unavailable for this title."
+"407","PC","Tharsis","Choice Provisions","Choice Provisions","62.66","16",NA,"Unlisted",NA,NA,NA,NA,"THARSIS","Sales data unavailable for this title."
+"408","PS4","The Witch and the Hundred Knight Revival Edition","Nippon Ichi Software","Nippon Ichi Software","62.40","15",72,"Role-Playing",0,0,1,2016-03-05,"THE WITCH AND THE HUNDRED KNIGHT REVIVAL EDITION","Sales data below:"
+"409","PS4","Dead Island Definitive Collection","Techland","Deep Silver","61.71","21",13,"Action",12178,12178,1,2016-06-04,"DEAD ISLAND DEFINITIVE COLLECTION","Sales data below:"
+"410","PC","Gemini Heroes Reborn","Phosphor Games","Phosphor Games","61.70","10",NA,"Unlisted",NA,NA,NA,NA,"GEMINI HEROES REBORN","Sales data unavailable for this title."
+"411","PC","This Is the Police","Weappy Studio","EuroVideo Medien","61.61","18",NA,"Unlisted",NA,NA,NA,NA,"THIS IS THE POLICE","Sales data unavailable for this title."
+"412","PC","Soul Axiom","Wales Interactive Ltd.","Wales Interactive Ltd.","61.25","12",NA,"Unlisted",NA,NA,NA,NA,"SOUL AXIOM","Sales data unavailable for this title."
+"413","PS4","Lost Sea","EastAsiaSoft","EastAsiaSoft","60.83","12",NA,"Unlisted",NA,NA,NA,NA,"LOST SEA","Sales data unavailable for this title."
+"414","3DS","Sonic Boom Fire & Ice","Sanzaru Games","Sega","60.78","18",12,"Platform",23253,23253,1,2016-10-01,"SONIC BOOM FIRE & ICE","Sales data below:"
+"415","PC","Crush Your Enemies","Vile Monarch","Gambitious","60.38","13",NA,"Unlisted",NA,NA,NA,NA,"CRUSH YOUR ENEMIES","Sales data unavailable for this title."
+"416","3DS","Chase Cold Case Investigations - Distant Memories","Arc System Works","Arc System Works","60.33","12",NA,"Unlisted",NA,NA,NA,NA,"CHASE COLD CASE INVESTIGATIONS - DISTANT MEMORIES","Sales data unavailable for this title."
+"417","PS4","The Technomancer","Spiders","Focus Home Interactive","60.08","24",41,"Role-Playing",0,0,1,2016-07-02,"THE TECHNOMANCER","Sales data below:"
+"418","PS4","Lifeless Planet Premier Edition","Stage 2 Studios","Serenity Forge","60.00","10",NA,"Unlisted",NA,NA,NA,NA,"LIFELESS PLANET PREMIER EDITION","Sales data unavailable for this title."
+"419","PC","Mafia III","Hangar 13","2K Games","59.96","13",11,"Action",40141,40141,1,2016-10-08,"MAFIA III","Sales data below:"
+"420","PS4","Touhou Scarlet Curiosity","Mediascape","Mediascape","59.94","17",NA,"Unlisted",NA,NA,NA,NA,"TOUHOU SCARLET CURIOSITY","Sales data unavailable for this title."
+"421","XONE","Assassin's Creed Chronicles Russia","Climax Studios","Ubisoft","59.88","16",NA,"Unlisted",NA,NA,NA,NA,"ASSASSIN'S CREED CHRONICLES RUSSIA","Sales data unavailable for this title."
+"422","VITA","MeiQ Labyrinth of Death","Compile Heart","Compile Heart","59.75","16",NA,"Unlisted",NA,NA,NA,NA,"MEIQ LABYRINTH OF DEATH","Sales data unavailable for this title."
+"423","PC","Necropolis","Harebrained Schemes LLC","Harebrained Schemes LLC","59.74","19",NA,"Unlisted",NA,NA,NA,NA,"NECROPOLIS","Sales data unavailable for this title."
+"424","PS4","Kholat","IMGN.PRO","IMGN.PRO","59.17","12",NA,"Unlisted",NA,NA,NA,NA,"KHOLAT","Sales data unavailable for this title."
+"425","PS4","Asemblance","Nilo Studios","Nilo Studios","59.17","12",NA,"Unlisted",NA,NA,NA,NA,"ASEMBLANCE","Sales data unavailable for this title."
+"426","XONE","Dangerous Golf","Three Fields Entertainment","Three Fields Entertainment","58.96","12",NA,"Unlisted",NA,NA,NA,NA,"DANGEROUS GOLF","Sales data unavailable for this title."
+"427","XONE","Gemini Heroes Reborn","Phosphor Games","Imperative Entertainment","58.90","10",NA,"Unlisted",NA,NA,NA,NA,"GEMINI HEROES REBORN","Sales data unavailable for this title."
+"428","PS4","Small Radios Big Televisions","Owen Deery","Adult Swim","58.64","11",NA,"Unlisted",NA,NA,NA,NA,"SMALL RADIOS BIG TELEVISIONS","Sales data unavailable for this title."
+"429","XONE","MXGP2 The Official Motocross Videogame","Milestone S.r.l","PQube","58.60","10",NA,"Unlisted",NA,NA,NA,NA,"MXGP2 THE OFFICIAL MOTOCROSS VIDEOGAME","Sales data unavailable for this title."
+"430","PS4","Star Ocean Integrity and Faithlessness","Tri-Ace","Square Enix","58.41","40",NA,"Unlisted",NA,NA,NA,NA,"STAR OCEAN INTEGRITY AND FAITHLESSNESS","Sales data unavailable for this title."
+"431","PC","ReCore","comcept","Microsoft Game Studios","58.40","10",NA,"Unlisted",NA,NA,NA,NA,"RECORE","Sales data unavailable for this title."
+"432","PS4","100ft Robot Golf","No Goblin","No Goblin","58.33","12",NA,"Unlisted",NA,NA,NA,NA,"100FT ROBOT GOLF","Sales data unavailable for this title."
+"433","PC","Breached","Drama Drifters","Nkidu Games Inc.","58.31","13",NA,"Unlisted",NA,NA,NA,NA,"BREACHED","Sales data unavailable for this title."
+"434","PS4","Attractio","GameCoder Studios","GameCoder Studios","57.79","14",NA,"Unlisted",NA,NA,NA,NA,"ATTRACTIO","Sales data unavailable for this title."
+"435","PS4","Assassin's Creed Chronicles Russia","Climax Studios","Ubisoft","57.17","12",NA,"Unlisted",NA,NA,NA,NA,"ASSASSIN'S CREED CHRONICLES RUSSIA","Sales data unavailable for this title."
+"436","PS4","PlayStation VR WORLDS","Sony Interactive Entertainment","Sony Interactive Entertainment","56.96","27",NA,"Unlisted",NA,NA,NA,NA,"PLAYSTATION VR WORLDS","Sales data unavailable for this title."
+"437","PC","The Technomancer","Spiders","Focus Home Interactive","55.35","20",NA,"Unlisted",NA,NA,NA,NA,"THE TECHNOMANCER","Sales data unavailable for this title."
+"438","PS4","The Park","Funcom","Funcom","55.27","11",NA,"Unlisted",NA,NA,NA,NA,"THE PARK","Sales data unavailable for this title."
+"439","VITA","Mobile Suit Gundam Extreme VS-Force","Bandai Namco Games","Bandai Namco Games","55.27","22",NA,"Unlisted",NA,NA,NA,NA,"MOBILE SUIT GUNDAM EXTREME VS-FORCE","Sales data unavailable for this title."
+"440","XONE","Mighty No. 9","Inti Creates","Deep Silver","55.00","11",40,"Platform",0,0,1,2016-06-25,"MIGHTY NO. 9","Sales data below:"
+"441","PS4","Touhou Genso Rondo Bullet Ballet","CUBETYPE","Mediascape","55.00","10",16,"Shooter",8365,8365,1,2016-09-10,"TOUHOU GENSO RONDO BULLET BALLET","Sales data below:"
+"442","PS4","Verdun","Blackmill Games","M2H","54.83","12",NA,"Unlisted",NA,NA,NA,NA,"VERDUN","Sales data unavailable for this title."
+"443","VITA","A.W. Phoenix Festa","Bandai Namco Games","Bandai Namco Games","54.50","14",NA,"Unlisted",NA,NA,NA,NA,"A.W. PHOENIX FESTA","Sales data unavailable for this title."
+"444","XONE","Solar Shifter EX","Elder Games","Headup Games","54.50","10",NA,"Unlisted",NA,NA,NA,NA,"SOLAR SHIFTER EX","Sales data unavailable for this title."
+"445","XONE","Teenage Mutant Ninja Turtles Mutants in Manhattan","PlatinumGames","Activision","54.50","10",12,"Action",10946,10946,1,2016-05-28,"TEENAGE MUTANT NINJA TURTLES MUTANTS IN MANHATTAN","Sales data below:"
+"446","PS4","Dangerous Golf","Three Fields Entertainment","Three Fields Entertainment","54.12","17",NA,"Unlisted",NA,NA,NA,NA,"DANGEROUS GOLF","Sales data unavailable for this title."
+"447","XONE","Trials of the Blood Dragon","RedLynx","Ubisoft","54.00","11",NA,"Unlisted",NA,NA,NA,NA,"TRIALS OF THE BLOOD DRAGON","Sales data unavailable for this title."
+"448","PS4","The Tomorrow Children","Q-Games","Sony Interactive Entertainment","53.93","22",NA,"Unlisted",NA,NA,NA,NA,"THE TOMORROW CHILDREN","Sales data unavailable for this title."
+"449","3DS","Mario & Sonic at the Rio 2016 Olympic Games","Sega Sports R&D","Nintendo","53.67","12",49,"Action",0,0,1,2016-03-19,"MARIO & SONIC AT THE RIO 2016 OLYMPIC GAMES","Sales data below:"
+"450","PS4","Pixel Gear","Geronimo Interactive","Oasis Games","53.33","12",NA,"Unlisted",NA,NA,NA,NA,"PIXEL GEAR","Sales data unavailable for this title."
+"451","PS4","ADR1FT","Three One Zero","505 Games","52.50","12",NA,"Unlisted",NA,NA,NA,NA,"ADR1FT","Sales data unavailable for this title."
+"452","PS4","Shadwen","Frozenbyte, Inc.","Frozenbyte, Inc.","52.29","17",NA,"Unlisted",NA,NA,NA,NA,"SHADWEN","Sales data unavailable for this title."
+"453","3DS","Sadame","Mebius","Intergrow","52.27","11",NA,"Unlisted",NA,NA,NA,NA,"SADAME","Sales data unavailable for this title."
+"454","PS4","Koi","Oasis Games","Oasis Games","52.11","27",NA,"Unlisted",NA,NA,NA,NA,"KOI","Sales data unavailable for this title."
+"455","PS4","Trials of the Blood Dragon","RedLynx","Ubisoft","51.90","20",NA,"Unlisted",NA,NA,NA,NA,"TRIALS OF THE BLOOD DRAGON","Sales data unavailable for this title."
+"456","PC","Homefront The Revolution","Deep Silver Dambuster Studios","Deep Silver","51.08","25",NA,"Unlisted",NA,NA,NA,NA,"HOMEFRONT THE REVOLUTION","Sales data unavailable for this title."
+"457","PC","Warhammer 40,000 Eternal Crusade","Behaviour Interactive","Bandai Namco Games","51.00","10",NA,"Unlisted",NA,NA,NA,NA,"WARHAMMER 40,000 ETERNAL CRUSADE","Sales data unavailable for this title."
+"458","PS4","Loading Human Chapter 1","Untold Games","Maximum Games","51.00","10",NA,"Unlisted",NA,NA,NA,NA,"LOADING HUMAN CHAPTER 1","Sales data unavailable for this title."
+"459","PS4","Carmageddon Max Damage","Stainless Games","Stainless Games","50.94","16",74,"Action",0,0,1,2016-07-09,"CARMAGEDDON MAX DAMAGE","Sales data below:"
+"460","PS4","Mighty No. 9","Inti Creates","Deep Silver","50.80","40",7,"Platform",23940,23940,1,2016-06-25,"MIGHTY NO. 9","Sales data below:"
+"461","PC","Mighty No. 9","Inti Creates","Deep Silver","48.46","12",NA,"Unlisted",NA,NA,NA,NA,"MIGHTY NO. 9","Sales data unavailable for this title."
+"462","PS4","Teenage Mutant Ninja Turtles Mutants in Manhattan","PlatinumGames","Activision","47.87","35",8,"Action",23709,23709,1,2016-05-28,"TEENAGE MUTANT NINJA TURTLES MUTANTS IN MANHATTAN","Sales data below:"
+"463","PS4","Harmonix Music VR","Harmonix Music Systems","Harmonix Music Systems","47.36","11",NA,"Unlisted",NA,NA,NA,NA,"HARMONIX MUSIC VR","Sales data unavailable for this title."
+"464","PS4","Homefront The Revolution","Deep Silver Dambuster Studios","Deep Silver","46.70","27",4,"Shooter",30938,30938,1,2016-05-21,"HOMEFRONT THE REVOLUTION","Sales data below:"
+"465","PS4","Anima Gate of Memories","Anima Project","Badland Games","45.91","11",NA,"Unlisted",NA,NA,NA,NA,"ANIMA GATE OF MEMORIES","Sales data unavailable for this title."
+"466","PS4","MilitAnt","Xibalba Studios","Creaciones Interactivas","43.18","11",NA,"Unlisted",NA,NA,NA,NA,"MILITANT","Sales data unavailable for this title."
+"467","PS4","7 Days to Die","The Fun Pimps Entertainment LLC","Telltale Games","42.08","12",20,"Action",12657,12657,1,2016-07-02,"7 DAYS TO DIE","Sales data below:"
+"468","PS4","One Way Trip","Beret Applications LLC","Beret Applications LLC","41.42","12",NA,"Unlisted",NA,NA,NA,NA,"ONE WAY TRIP","Sales data unavailable for this title."
+"469","PC","Bombshell","Interceptor Entertainment","3D Realms","39.61","19",NA,"Unlisted",NA,NA,NA,NA,"BOMBSHELL","Sales data unavailable for this title."
+"470","PS4","Ace Banana","TVR","Oasis Games","38.54","13",NA,"Unlisted",NA,NA,NA,NA,"ACE BANANA","Sales data unavailable for this title."
+"471","PS4","Umbrella Corps","Capcom","Capcom","38.47","36",NA,"Unlisted",NA,NA,NA,NA,"UMBRELLA CORPS","Sales data unavailable for this title."
+"472","PC","Slain!","Wolf Brew Games","Digerati Distribution","38.46","13",NA,"Unlisted",NA,NA,NA,NA,"SLAIN!","Sales data unavailable for this title."
+"473","XONE","7 Days to Die","The Fun Pimps Entertainment LLC","Telltale Games","37.79","14",28,"Action",8134,8134,1,2016-07-02,"7 DAYS TO DIE","Sales data below:"
+"474","PC","Umbrella Corps","Capcom","Capcom","36.60","10",NA,"Unlisted",NA,NA,NA,NA,"UMBRELLA CORPS","Sales data unavailable for this title."
+"475","PS4","Coffin Dodgers","Milky Tea Studios","Wales Interactive Ltd.","35.00","10",NA,"Unlisted",NA,NA,NA,NA,"COFFIN DODGERS","Sales data unavailable for this title."
+"476","PS4","Weeping Doll","TianShe Media","Oasis Games","33.44","16",NA,"Unlisted",NA,NA,NA,NA,"WEEPING DOLL","Sales data unavailable for this title."
+"477","PS4","Ghostbusters","FireForge Games","Activision","33.38","21",NA,"Unlisted",NA,NA,NA,NA,"GHOSTBUSTERS","Sales data unavailable for this title."
