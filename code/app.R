@@ -3,9 +3,10 @@
 library(shiny)
 library(tidyverse)
 library(ggplot2)
+# The DT package allows for the feature of selectable observations in the data table, giving a better level of interaction to the user.
 library(DT)
 
-# Initialize
+# Initialize reading data set. If for some reason it doesn't read it properly, please download the actual csvs and redirect to where they are in your directory)
 Score_Sales_All <- read.csv("https://raw.githubusercontent.com/KaiJeng/MSDS_Project_Jeng/master/data/Score_Sales_All", stringsAsFactors=FALSE)
 Score_Sales_All$X <- NULL
 Score_Sales_All$Week.Ending <- as.Date(Score_Sales_All$Week.Ending)
@@ -17,6 +18,7 @@ Score_Sales_Week_One$Week.Ending <- as.Date(Score_Sales_Week_One$Week.Ending)
 Score_Sales_Interactive <- Score_Sales_Week_One %>% filter(Complicated == "Sales data below:", Weekly != 0)
 
 # Building the UI
+# For the text input and select platform input
 ui <- fluidPage(
   titlePanel("Video Game Software Analysis 2016"),
   sidebarLayout(
@@ -32,15 +34,18 @@ ui <- fluidPage(
       "Note: Sales numbers unavailable for some titles"
     ),
     
-    # Any of those "dum" tables are used to break two lines into separate lines. What I mean is if you take those tables out, the line above will be appended to the next line.
+    # Any of those "dum" tables are used to break two lines into separate lines. What I mean is if you take those tables out, the line above will be appended to the next line as a single line of text.
     mainPanel(
       tabsetPanel(type = "tabs",
+                  # Outputs table with general description of game
                   tabPanel("Description", tableOutput("tableDesc"),
                            "Information provided by GameRankings.com"),
+                  # The intial textOutput "whoops" is for if a game does not have any sales data; a message will appear.
                   tabPanel("Sales Numbers", textOutput("whoops"), plotOutput("plotNum"),
                            dataTableOutput("tableNum"), "*Weekly sales numbers with value zero signify that data is unavailable",
                            tableOutput("dumdum"),
                            "Data provided by VGChartz.com"),
+                  # fluidRow allows for the set of different filter options on the same row in the UI
                   tabPanel("Comparison: Sales and Reviews", 
                            fluidRow(column(4,selectInput("genes2", "Genre", c("All", unique(as.character(Score_Sales_Week_One$Genre))))),
                             column(4,selectInput("ploop2", "Platform", c("All", unique(as.character(Score_Sales_Week_One$Platform))))),
@@ -48,9 +53,10 @@ ui <- fluidPage(
                            dataTableOutput("table3"),
                            "*First week sales", tableOutput("dummbu"),
                            "Data provided by VGChartz.com and GameRankings.com"),
+                  # The interactive plot is on this tab
                   tabPanel("Comparison: Sales vs. Reviews",
                            "Based on available data",
-                           plotOutput("plot4"), "Click on observation to highlight points on graph", dataTableOutput("table4"),
+                           plotOutput("plot4"), "Click on any observation to highlight points on the graph", dataTableOutput("table4"),
                            "*First week sales", tableOutput("dummbuu"),
                            "Data provided by VGChartz.com and GameRankings.com")
                   )
@@ -112,7 +118,7 @@ server <- function(input, output, session) {
     filter(data2, Score >= input$goalie[1] & Score <= input$goalie[2])
   })
   
-  # Comparison vs. tab
+  # Comparison vs. tab; interactive plot is based on code in shiny.rstudio.com as I couldn't figure out how to personally tweak it
   ssint <- select(Score_Sales_Interactive,Score,Weekly)
   output$table4 <- DT::renderDataTable(select(Score_Sales_Interactive,Platform,Game,Publisher,Genre,Score,Weekly,Week.Ending), server = FALSE)
   output$plot4 <- renderPlot({

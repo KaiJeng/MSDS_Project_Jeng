@@ -63,9 +63,11 @@ A brief look of the tidy data shows that all of the data was successfully separa
 
 ## Scraping the Sales Numbers
 
-Now, we need to scrape the review scores from VGChartz.com. As noted before, the full sales data is not available unless you are a paid member. Unfortunately, this means that for every week, the first 30 software sales numbers are provided and the other 45 have their numbers redacted. However, a game's position on the chart for that week still gives a general idea of how a game fared. 
+Now, we need to scrape the review scores from VGChartz.com. As noted before, the full sales data is not available unless you are a paid member. Unfortunately, this means that for every week, the first 30 software sales numbers are provided and the other 45 have their numbers redacted. However, a game's position on the weekly chart is still provided; this gives a general idea of how a game fared so it's worth scraping. 
 
-(I could have provided an estimate for the other 45 games; for example if game 30 sold 30000 I could have said game 31 to 75 sold <30000. The reason I chose not to is because this estimate will be inflated depending on the shopping season or other factors and wouldn't help provide a clear idea to how many copies the game sold when comparing weeks.)
+(I could have provided an estimate for the other 45 games; for example if game 30 sold 30000 I could have said game 31 to 75 sold <30000. The reason I chose not to is because this estimate could be inflated especially as you go down the list to position 75. Instead, all of the sales numbers that were not provided are set to zero. This helps to indicate that the game was still listed on VGChartz but the sales number could not be accessed.
+
+Besides the sales, VGChartz also provides the game's genre. It also indirectly provided a game's week of release (for example, any observation with Week.Number = 1 means thats the first week on the market for that particular game).
 
 ```{r sales}  
 # Getting sales data for software and hardware
@@ -179,7 +181,7 @@ The final merged data set is shown above. Using this data, we can compile some a
 
 # Shiny app
 
-(Please refer to the actual app for the full code. Explanations will be provided in this report. Snippets of the code will be shown, so they will not work independently.)
+(Please refer to the actual app for the full code. Explanations will be provided in this report. General comments have been added to the actual code file but the code itself is not written in this report. Please refer to the actual code for more details.)
 The app focuses on two things: (1) Examing sales data of a specific game (2) Comparision of all the games to one another. Lets start with examing sales data for a specified game.
 
 ## Examing a specific game
@@ -194,7 +196,7 @@ SCORE_SALES_ALL$Title <- toupper(SCORE_SALES_ALL$Game)
 The other issue is that not every game is released on every platform. I wanted to implement a way for the drop box menu to update depending on what game title was typed in, but that doesn't seem possible. This related to the major issue, dealing with different possible input types. Let's explain each and how to deal with them.
 
 1) The game with no sales numbers (ie Owlboy for PC)
-  For the most part, if there are no sales numbers provided for a game by VGChartz.com, it is either because the game was not tracked by VGChartz.com or it was a digital release (digital sales numbers are not disclosed because they can't be tracked unless you are the original seller). Thus, these games will still have descriptions but no sales data graph. We can identify these games by using the Total variable; clearly since the game has no sales data, the total will be N/A. Any game that fits in this category will have a warning message indicating "Sales data unavailbe for this title" in the Sales Numbers tab on top. Description will output as normal
+  For the most part, if there are no sales numbers provided for a game by VGChartz.com, it is either because the game was not tracked by VGChartz.com or it was a digital release (digital sales numbers are not disclosed because they can't be tracked unless you are the original seller). Thus, these games will still have descriptions but no sales data graph. We can identify these games by using the Total variable; clearly since the game has no sales data, the total will be N/A. Any game that fits in this category will have a warning message indicating "Sales data unavailbe for this title" in the Sales Numbers tab on top. Description will output as normal. (This is why sales numbers were set to 0 so games that explicitly were not on VGChartz could be marked.)
   
 ```{r}
 for (i in 1:nrow(SCORE_SALES_WEEKONE)) {
